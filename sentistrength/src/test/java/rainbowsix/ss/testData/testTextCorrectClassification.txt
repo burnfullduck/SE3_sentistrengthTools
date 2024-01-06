@@ -1,0 +1,5 @@
+Positive	Negative	Text
+3	-1	I love your dog.
+1	-5	I hate you!
+4	-1	Oh god! I love it so much!
+1	-5	YOU ARE A FUCKING RETARD!

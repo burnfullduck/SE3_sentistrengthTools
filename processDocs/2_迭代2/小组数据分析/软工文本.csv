@@ -1,0 +1,939 @@
+Number,CommentText,Trinary,Source
+0,"I tried, the UNC path, allow service desktop access, service as admin, nothing worked.",0,StackOverflow
+1,Using 'net use' to create the drive within the batch file worked flawlessly. Thanks,1,StackOverflow
+2,The recyclerview is recommended more than a listview for these purposes,0,StackOverflow
+3,an additional point for anyone looking at this. Make sure you haven't set both leading & trailing constraints as those override 'greater than' constraints,1,StackOverflow
+4,Man!! This was so helpful after like 2 hours dealing this $hit. Love you man.,1,StackOverflow
+5,Shouldn't that be `ngAfterViewInit()`?,0,StackOverflow
+6,"btw, I recently wrote a blog post about Deployments and why to use them: https://blog.giantswarm.io/understanding-basic-kubernetes-concepts-using-deployments-manage-services-declaratively/",0,StackOverflow
+7,"According to Jeffrey Way, this is the 'preferred' method as it also allows authorisation checking. However there's no reason why the above rules method can't retrieve its rules from a static property of the model. So instead of `public $rules` it would become `public static $rules` and the above method would just return `MyModel::$rules`",-1,StackOverflow
+8,"In your swift3 example can you show more details about setting up the configuration, password stuff etc... other tutorials are very very different from your solution so would help.  thanks!",1,StackOverflow
+9,Thank you. It worked for me :),1,StackOverflow
+10,@ChrisPatterson I tried that but it would give me errors when I did anything but use the default settings,-1,StackOverflow
+11,This should be an OR condition. It can't be both Saturday AND Sunday.,0,StackOverflow
+12,"Not really an answer to the question, but still useful, clearly shows the difference between self and static.",-1,StackOverflow
+13,"I liked your version slightly better, but after changing it I ran into _""Invalid configuration of route 'browse/**'. One of the following must be provided: component, redirectTo, children or loadChildren""_.",1,StackOverflow
+14,"Just in case it helps anyone: in Angular 4.1.x, I used `component` in the wildcard child rather than the parent: `{path: 'browse', children: [{path: '**', component: BrowserComponent}]}`.",1,StackOverflow
+15,"This happens even when the inheritance tree is simpler, i.e. when there's no common base protocol. Which makes me wonder what the cause of this problem is.",-1,StackOverflow
+16,"Singleton classes, if properly implemented, do not need to be declared final in order to not be extended. Since all the constructors of the singleton class are private, you can't extend that class. In fact, singleton classes are effectively final.",0,StackOverflow
+17,What's the difference between the two?,0,StackOverflow
+18,That's bloody unexpected,-1,StackOverflow
+19,I'm downvoting this shameless plug... maybe give a code example of how you would solve the question being posted using the library?,-1,StackOverflow
+20,Just wanted to let you know that I used your solution today on a different site ,0,StackOverflow
+21,"Yes, you can do it this way, but it's much faster to do a single `%` operation with the LCM. It takes a tiny bit of time to calculate the LCM (using the code I posted above, it takes under 20 microseconds to calculate the LCM of the numbers under 20 on my old 2GHz machine),  and if you need to check that lots of numbers pass the same divisibility test the overhead of calculating the LCM is negligible.",0,StackOverflow
+22,"Hi John, welcome to SO and thanks for your answer. Code only answers are discouraged because the link can change over time and become invalidated - therefore it is much better to provide a complete answer that can stand here on its own, with the link as a reference. Would you mind editing your answer with this in mind? Thanks again!",1,StackOverflow
+23,"Well, it doesnt work, it crashes as expplained here: https://github.com/jitsi/sdp-interop/issues/4",0,StackOverflow
+24,"It's worth noting you should put this BEFORE you actually call `AddMvc()` in your `Startup.ConfigureServices()` method. `AddRouting()` which is also called by `AddMvc()`uses the `Try` variants of the methods for adding dependencies to your service collection. So when it sees that the routing dependencies have already been added, it will skip that parts of `AddMvc()` setup logic.",0,StackOverflow
+25,Lifesaver! This would have taken me ages to track down.,1,StackOverflow
+26,Do you have a link to ticket #84051?,0,StackOverflow
+27,Thanks this solved it for me. :-). Also fixed all 404 errors.,-1,StackOverflow
+28,The line removing the 'my-dir' attribute is what I needed to get my code working (to prevent infinite recursion).  Thanks!,1,StackOverflow
+29,The tutorial has [moved to here](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions).,0,StackOverflow
+30,"I had the same issue, important side note from me, is to add the import above all other imports in app.module.ts or whatever your module file is named.",0,StackOverflow
+31,"giving credit where credit is due, the python 1-liner is from http://unix.stackexchange.com/questions/55913/whats-the-easiest-way-to-find-an-unused-local-port#comment271991_132524 - thanks for that, @lekensteyn !",1,StackOverflow
+32,I read through the 'Core Audio Mailing List' but I can't understand what this 'errno' is. Where do you declare it?,0,StackOverflow
+33,That plugin is only for ST 2.,0,StackOverflow
+34,Current answer is incorrect.,-1,StackOverflow
+35,"The correct way of importing the dictionary into a DataFrame is `df = pd.DataFrame.from_dict(dic, orient='index')`. And then it can be exporrted to a file with `df.to_csv('test.tsv', '\t', header=False, index=True)`",0,StackOverflow
+36,"It was me who reported the chrome bug, and I can confirm that it works perfectly in firefox. Note that there is a bug in the above code: it doesn't handle the case where the sourcebuffer is busy, so appendBuffer could be failing.",-1,StackOverflow
+37,thank you for sharing!,1,StackOverflow
+38,@tripleee red herring?,0,StackOverflow
+39,"It's additional and constructive since the user is posting this as a ""bash question""  No need for a down vote, as the path was the issue.",0,StackOverflow
+40,As of the date of this comment you can use beta:&#xA,0,StackOverflow
+41,FYI : this only do convert plain js object to query string.If you need to resolve for nested objects go with some recursive strategy,1,StackOverflow
+42,"Can you elaborate on ""Note that GCD will also sometimes use the main thread for a block added to some other queue."" Does this relate to UI type things?",-1,StackOverflow
+43,"The issue is the ""AnyObject"" - the correct Swift 3 signature uses ""Any"". Don't use the Xcode suggested solutions for silencing the warning.",0,StackOverflow
+44,"Good answer, it's a good example with re-using the same form in different use-cases.",1,StackOverflow
+45,"The estimatedRowHeight is not supposed to be UITableViewAutomaticDimension, it's supposed to be a real number to help the system figure out an estimate for the row height before the autolayout determines a dynamic row height.",1,StackOverflow
+46,This works! Saving all files and then check-in.,1,StackOverflow
+47,"You also won't be able to dismiss a view controller that has been set as a rootviewcontroller. So, if:",-1,StackOverflow
+48,Thank you for the note,1,StackOverflow
+49,"sdkmanager is not downloading any platform for me. It says ""done"" but when I check back, it is not there.",0,StackOverflow
+50,Does it work still? It doesn't work for me in vlc.,0,StackOverflow
+51,Where does JsonConvert come frome?,0,StackOverflow
+52,@sgonzalez His answer works for Swift 3. I was using legacy Swift (2).,0,StackOverflow
+53,Watch out the retain cycle on your block! You should use `[weak self]`,-1,StackOverflow
+54,@zzzzBov Thanks a lot man for your answer. Already spend more than 5 hours behind this.,1,StackOverflow
+55,"I am using 2.1.1, but the problem still persists....",-1,StackOverflow
+56,This should be the accepted answer,0,StackOverflow
+57,Now it can be install with ```pip install https://github.com/pr4bh4sh/python-delayed-assert```,0,StackOverflow
+58,You answer the best! This is what I need!,1,StackOverflow
+59,How does this solve the issue?  You still can't disable the automatic download of artifacts in the environment itself.. unless I am mistaken.,-1,StackOverflow
+60,this doesn't really answer the question but actually solves the problem I had when stumbling upon this question,-1,StackOverflow
+61,"Long story short, check your project file and make sure there's nothing that holding up the build. Mine had a lingering Antlr runtime requirement that had been removed.",0,StackOverflow
+62,Wow thank you you saved me several hours! This is not at all intuitive and such behaviour could have been hadled by Google..,1,StackOverflow
+63,"Thanks a lot, it worked for me!!!",1,StackOverflow
+64,Ive updated to git client plugin 1.21.0 and git plugin 2.5.3 but nothing changed. I am missing something?,0,StackOverflow
+65,that might drive you crazy if you have a zillion coffee files and have no idea which one is in error!,-1,StackOverflow
+66,"To use `require`you have to use a proper module loader, in this case I think used commonJS for more details..&#xA",0,StackOverflow
+67,The network is needed if there are dependencies +1.,0,StackOverflow
+68,no you can http://stackoverflow.com/questions/20052617/use-multiple-local-strategies-in-passportjs,0,StackOverflow
+69,"@devoncrazylegs i Have you're same problem but i'm unable to resolve it. I have the same error in the log but i have give two different name in the selector to thw two different components, what do i have to do? split my application in multiple modules?",-1,StackOverflow
+70,This is simple and wonderful! Actually sometimes it seems to be the only way around the crash sometimes. Particularly when you want to grab a huge iPad pro screenshot for the store...,1,StackOverflow
+71,Brilliant - this makes perfect sense,1,StackOverflow
+72,You should describe what this would achieve. Posting a piece of code without explanation is not very helpful.,-1,StackOverflow
+73,An interesting solution - a bit weird but original :-),-1,StackOverflow
+74,Why not install CUDA? I would like to take advantage of my GPU. Isn't that faster?,0,StackOverflow
+75,"This no longer works. Seems like the ""tabs-above"" class has changed its name to ""tabbable"" now - changing that class selector fixes it.",1,StackOverflow
+76,Both @Kamil Smrčka and cuddlecheek are correct.,1,StackOverflow
+77,The reason the JavaScript isn't firing is because the page hasn't finished loading.,0,StackOverflow
+78,"The description from the documentation (https://developer.xamarin.com/api/event/Xamarin.Forms.WebView.Navigated/) for the Navigated event is: ""Event that is raised after navigation completes.""",0,StackOverflow
+79,So in the above answer Kamil is subscribing to the Navigated event (in this case the page load complete event) and executing his JavaScript after it fires.,0,StackOverflow
+80,"There is no `router` in the rootState by default. Injecting it manually would also be overkill, as the router instance is mostly immutable, except for the `route` itself, which is part of the state if using vuex-router-sync.",-1,StackOverflow
+81,"For me, port 25 is working. Thanks",1,StackOverflow
+82,"if i use this method, i always get a full page refresh :(",-1,StackOverflow
+83,can u set a example how to push id thanks inside ondatachange,1,StackOverflow
+84,I changed to using `${project.build.testOutputDirector}` and use `<scope>runtime</scope>`. Then I was able to remove the `systemPath` and everything works well.,0,StackOverflow
+85,Worked perfectly for me on opencv 3.2 for C/C++ as well.,1,StackOverflow
+86,Remember that the opencv libraries are installed to /usr/local/lib if following the installation instructions online.,0,StackOverflow
+87,Same problem over here @vanthome,-1,StackOverflow
+88,"I dont get it, in Manifest what needs to be added actually? Can you give complete example??",0,StackOverflow
+89,"Thank you, this helped immensely.",1,StackOverflow
+90,Although I do wonder if I am writing my tests correctly if I have do things like this just to test whether my repository methods actually return the data I need. Are there any reasonable alternatives to mocking DbSet?,-1,StackOverflow
+91,"The thread is supposed to ""run until the JVM is stopped"", not ""until all other threads died"".",0,StackOverflow
+92,Just be sure to do this in a closure to isolate `thisScript`.,-1,StackOverflow
+93,@Brandon The above method is not giving any success method. could you tell me how to take success event using above method ?,1,StackOverflow
+94,This seems to be the most up to date answer - thank you.,1,StackOverflow
+95,"inserting a placeholder row solved this for me, thanks.",1,StackOverflow
+96,If you are using VS make sure the minified version of Bootstrap is the new version.  The update does not create the new minified file.,0,StackOverflow
+97,"Tried various things, that seem the only way to make things work ... Tricky, but the job's done !",-1,StackOverflow
+98,"helpful for some cases.. but tests will fail. and not the best choice, still +1",-1,StackOverflow
+99,But what if I use queries for deleting like WHERE date_added > now() - '1 month'? Is index useful in this case? Thnx,1,StackOverflow
+100,"Kind of `extension function` in `javascript`. Nice to know though, but the answer doesn't relate to my question..",1,StackOverflow
+101,change to *import AVKit - this is awesome,1,StackOverflow
+102,**Cloudflare in my case too**. Disabling `DNS and HTTP proxy` (From `orange` to `grey` cloud) under `DNS` settings solved the issue.,0,StackOverflow
+103,Michael - You just need to write to stdout using echo from Mac bash script.,0,StackOverflow
+104,Make sure you surround the command in quotes like this echo '##vso[task.setvariable variable=xcode.buildNumber,1,StackOverflow
+105,"Great answer, but follow-up question... How might I include the globally installed npm packages in the path as well?",1,StackOverflow
+106,Good true answer.,1,StackOverflow
+107,"Still debating whether to add a default image or not. Really wish Google would specify this in their AMP guides, since the Webmaster Tools will continue treating these missing images as ""issues"" of type ""Info: Invalid structured data element"" forever, clogging up my review of actual errors in that space. Frustrating for old posts (that I will never go back and fix) and new posts without any meaningful image.",-1,StackOverflow
+108,"A link to a solution is welcome, but please ensure your answer is useful without it: [add context around the link](//meta.stackexchange.com/a/8259) so your fellow users will have some idea what it is and why it’s there, then quote the most relevant part of the page you're linking to in case the target page is unavailable. [Answers that are little more than a link may be deleted.](//stackoverflow.com/help/deleted-answers)",1,StackOverflow
+109,"I needed to get a <form> from the component's template, but within the $onInit() method the form is undefined.",0,StackOverflow
+110,"If I access it inside a $timeout (100ms), then I can get it properly.",0,StackOverflow
+111,"I do not like this approach, but accessing the form inside $onInit() is not working for me as it seems not all the bindings are resolved.",1,StackOverflow
+112,"As @shane-hsu points out, there is a built-in `json` pipe, as there is in Angular 1.",0,StackOverflow
+113,Johnpapa's guide on Angular 1.x does not refer to the new `angular.component` even once. That part of the question is not covered by this answer. I'll try to come back later when I have an answer that covers that too.,1,StackOverflow
+114,"this is where i get null pointer because data always returns null, when using third party camera @SANAT",0,StackOverflow
+115,see: http://stackoverflow.com/questions/35385492/deploy-azure-website-and-webjobs-in-same-sln-using-vso-error-there-can-be-on,-1,StackOverflow
+116,i got that you provided some ip 172.20.128.2 to the container.But how can i access the website running in this container at ip 172.20.128.2  .I do not want to do port forwarding and using host ip.,0,StackOverflow
+117,using this in xcode 8.2.1 i am getting nil as result...,0,StackOverflow
+118,@Tseng I got ArgumentNullException due to the routeData is null when Moq try to construct HttpContext. I'm using asp.net core 1.1 What should I do?,-1,StackOverflow
+119,@koufa you have to put the `Context` _somewhere_. How else will you interact with a `Service`? What would you recommend?,0,StackOverflow
+120,"@JulianMclean not sure if you used this Bohemian split or not, but I played around with it and found it can fail for some values. For example, with ""/ABC/DEF/GHI/"" it will recognize ABC as a codeword but not GHI.",-1,StackOverflow
+121,This would throw the following error: `undefined method 'max_by' for #<Class:xxxxxxxx>` since a scope is not the same thing as an array.,-1,StackOverflow
+122,"Scopes are supposed to return an ActiveRecord::Association. &#xAAs far as the max_by method call is concerned, it could be simplified as `max_by(&:version_number)`.""",-1,StackOverflow
+123,Some sort of description or explanation would be helpful...,1,StackOverflow
+124,"I get the following error, Error response from daemon: Cannot kill container –signal=USR1: No such container: –signal=USR1.  I made sure to enter correct container by ID and Name, both same error.",-1,StackOverflow
+125,"This doesn't work for me, I think you need to give more information in your answer.",0,StackOverflow
+126,"There is a special case flag for 404 errors, passing decode404 = true in the Feign.builder() will return 404 and nothing else.",-1,StackOverflow
+127,how to decide if there is a need to call .newData or .noData? I have three labels to fill from core data. If nothing is filled how do I compare fetched info with displayed yet?,0,StackOverflow
+128,"(Nice example, but the question is from 1.5 yrs ago, and seems as though it was answered?)",0,StackOverflow
+129,Doesn't work here.,0,StackOverflow
+130,"in the case of a link with an icon (i.e. facebook), hidden by `aria-hidden=true`, should we add both the `title` attribute and a `span` with `sr-only` (by using bootstrap)? Screen-readers repeat both info, don't they?",1,StackOverflow
+131,This could likely be extended into a custom terminal command that takes as a value the current path or something like that.,1,StackOverflow
+132,"Hello, what's your source for ""0x1C to 0x1F and the byte at offset 0x24.""?",-1,StackOverflow
+133,you can use spring boot jdbc starter instead of jpa if you don't have classes annotated with @entity,0,StackOverflow
+134,"This is not a bug, but a missing feature that we are working on.",-1,StackOverflow
+135,It's one of the gaps that is called out in this blog:  https://dev.office.com/blogs/microsoft-graph-or-azure-ad-graph,0,StackOverflow
+136,"This didn't work for me.  Like Travis, I had to revert back to 0.39.0 then install pod again.  The pod libraries were working for my arm64 devices, but when I tried to run on my armv7 (iPad mini) the architectures just weren't getting built.  So this was definitely an issue with the newer version of cocoapods.",-1,StackOverflow
+137,Format your code by indenting 4 spaces.,0,StackOverflow
+138,Whoa man! This is gold. I don't know why I did not accept this answer back then. Thanks a lot!&#xA,1,StackOverflow
+139,"Also, why don't you make the video public?",0,StackOverflow
+140,Don't forget to call `try context.save()` as mentioned in another answer.,1,StackOverflow
+141,"Tks Stefan, i saw this too. Updated here recently and no more problem with this question.",-1,StackOverflow
+142,You could also use the `EXCEPT` set operator to find any missing results,0,StackOverflow
+143,"Same on my side, running into this problem with latest realm version",-1,StackOverflow
+144,Thanks man! awesome,1,StackOverflow
+145,"I'd like to take you out for a drink, sir.",1,StackOverflow
+146,"Although OpenIdConnectResponseType.Code didn't do the trick, OpenIdConnectResponseType.IdToken seems to have done! Thank you",-1,StackOverflow
+147,Thanks for youtube link,1,StackOverflow
+148,"@NadanParinday How do you manage player in every screen , I need the same scenario in my application",0,StackOverflow
+149,ok but the %u200E is appears on the url is there any solution for not make it appear,0,StackOverflow
+150,What is User here?,0,StackOverflow
+151,A little improvement to your logic:&#xA,1,StackOverflow
+152,"but your answer at http://stackoverflow.com/a/40364078/492 does, thanks.",1,StackOverflow
+153,"Hi Benjamin. I did not try any other region than UK. and every time the first upload last around 1 minute, then the others were almost instantly. What I finally implemented was to include a progressdialog that shows the progress while the upload was in progress..",0,StackOverflow
+154,here it is the implementation https://github.com/casertillo/AndroidProjects/blob/master/TutumpDev/app/src/main/java/com/tutump/tutumpdev/Activities/EditProfileActivity.java#L300 It is the method starting on line 300. Hope it works for you.,1,StackOverflow
+155,How can I assign to a new variable called session.dialogData.myEntities the object containing all the entities recognized by the LuisRecognizer.recognize() method? I need to store this entities somewhere so I can use them again in the waterfall before the dialog ends...,0,StackOverflow
+156,"Thanks for the explanation @Bergi, now understand along with the madox2 code above.",1,StackOverflow
+157,It might not be just because of batch size. Are you using any queue to make input batches (like `tf.train.shuffle_batch`)? If so check the capacity of the queue.,1,StackOverflow
+158,It should be emphasized that this will quickly cap out memory in traditional Spark RDD scenarios.,0,StackOverflow
+159,"If you delete selected migrations (say all migrations after `__init__`), then run `makemigrations` and see a message like `You have 1 unapplied migration(s)`, you can run `./manage.py migrate --fake` to 'fake' the migration (though other team members will get the full migration).",-1,StackOverflow
+160,Hmmm... I've seen this in a number of places but it's not working for me - I still get a 404 - the fallback route seems to never hit.,1,StackOverflow
+161,How do you read it back afterwards? Do you have to do something different than the usual?,0,StackOverflow
+162,"I implemented the Same code but I cant get files of defined max size, also the rolled files are doubling in size subsequently for each file, am I missing something.",0,StackOverflow
+163,ConnectionLostException:   Raised when the connection for a STOMP session is lost rather than closed.&#xAI use it.&#xA&#xA,0,StackOverflow
+164,Reference:&#xA,0,StackOverflow
+165,"How would I open the url without actually opening Safari? How do I get the url to ""open"" in the background? Please answer my question at: http://stackoverflow.com/questions/43686252/swift-3-and-json-updating-the-database-by-running-a-url-in-the-background.",1,StackOverflow
+166,This is silly. Thread 1 could be executing *anything* that modifies `s` and this would be a race. This is nothing about `unique` and simply about the fact that you really don't want threads to share instances of `shared_ptr` but instead to each have their own instance that references the same underlying object.,-1,StackOverflow
+167,works for me! thx,1,StackOverflow
+168,"Boom. Might not have answered the question, but did the trick in replicating behavior seen on an older version of iOS",-1,StackOverflow
+169,"This seems to perform the action belonging to the menu item, but doesn't cause the menu item to appear selected. I thought the latter was what the OP wanted, but I'm not positive.",-1,StackOverflow
+170,The issue is with missing images and as such `up` and `down` commands don't work. The correct answer is to use `docker-compose rm` to clear images and `build` -> `up` again.,0,StackOverflow
+171,"This should be the accepted answer, since this is the general answer to the original question. Of course fixing the real cause of the error is important, but that is not the point here.",-1,StackOverflow
+172,doesn't work with current versions,0,StackOverflow
+173,"This should be the first thing to try - I'm using fastlane to deliver and hit this problem yesterday. Today I just re-ran fastlane which auto-bumped the number and it succeeded, no other changes.",1,StackOverflow
+174,thumbs up for this solution thanks :D,1,StackOverflow
+175,It not concern orientation!,1,StackOverflow
+176,I assume you still have to reload all components. Have you tried?,0,StackOverflow
+177,That is a sweet diagram :),1,StackOverflow
+178,[caniuse](http://caniuse.com/#feat=css-has),0,StackOverflow
+179,"@PareshThakor Maybe like this: <key>NSAppTransportSecurity</key>&#xA		<key>NSAllowsLocalNetworking</key>&#xA		<true/>&#xA	</dict>",1,StackOverflow
+180,"I'm curious about the diff between the two ways (""static function of the QSqlDatabase"")?",-1,StackOverflow
+181,Where is Jboss server runtime > Deployments > Manage Deployments in eclipse?,0,StackOverflow
+182,"What is so strange is that I was running npm start for a while with no problems, and then started getting this error.",-1,StackOverflow
+183,"Fortunately, your fix worked for me.",0,StackOverflow
+184,Please elaborate further and explain why this works.,1,StackOverflow
+185,"I downloaded and installed 14.0.60413.0 (April 2016 preview) and I still get ""Object reference not set to an instance of an object"" from View Code in Visual Studio 2015. Am I doing something wrong? Should that work?",-1,StackOverflow
+186,I think this answer is no longer valid as of Angular2 rc6,0,StackOverflow
+187,"Thanks for your help. Unfortunately, multiple domains are not allowed as cors origin value. Neither is `*`. And you can't have multiple cors origin headers in one response... This effectively means you cannot use static config like this if you have multiple domains (as most sites have that support both naked domain urls and ones starting with *www.*)",-1,StackOverflow
+188,I have followed steps as per given video. let me know on following points&#xA2)share basic demo for testing,0,StackOverflow
+189,nice! I was trying to find something like that. thank you,1,StackOverflow
+190,Having it as two separate applications is easy but the question should be is can one share the Authentication and Authorization (ASP.net core Identity)with both so one only signs in once,0,StackOverflow
+191,"You know, you are brilliant ..! Every night, before sleep, I open this question and take a look at your answer and enjoy `:-)` ..! Very tricky it is `:-)` .. Thank you Bro ..!",1,StackOverflow
+192,This appears to be broken for a function that accepts `**kwargs` in addition to regular arguments.,-1,StackOverflow
+193,How can I get this to use the same key and pem files from my local machine regardless of which app or sample code I'm running?,-1,StackOverflow
+194,"@Maher Nabeel, didn't find exactly quantity of 10 for the audience, but seems that Dmila Ram was right, there is a threshold in displaying some metrics in order not to reveal individual users and their personal featues.",0,StackOverflow
+195,Here is what it is said: Data thresholds&#xA,0,StackOverflow
+196,True but I would argue that this solution is worse reason being is that it only works with distinct intervals binding your HTML and CSS together.,-1,StackOverflow
+197,The solution I provided allows the HTML to be whatever it wants and the all the actual layout is done via CSS keeping the separation of layers.,0,StackOverflow
+198,"Applying your solution, it looks like in ASP .Net Core the option `options.Password.RequireNonAlphanumeric = false` and `options.Password.RequireNonAlphanumeric = false`.""",1,StackOverflow
+199,"this isn't very explanatory, how exactly can you do it?",0,StackOverflow
+200,"thanks for highlighting the ""First, define the permission (as you did in your post) in the manifest, otherwise, your request will automatically be denied"". Mine was like this&#xA<uses-permission&#xA        android:name=""""android.permission.GET_ACCOUNTS""""&#xA        android:maxSdkVersion=""""22""""&#xA        tools:replace=""""maxSdkVersion"""" />&#xA&#xAI changed the """"22"""" to """"23""""""",-1,StackOverflow
+201,"@asaini007 The method is there but ... only available from API 21. By the way, it's not working all the time.",0,StackOverflow
+202,"@Maximus No, the code I provided works fine, but the problem was that `fs.readdir(...)` and `require(...)` were looking in different places, which is why the `fs.readdir` call used the path `./modules` while the require used `../modules`. `fs.readdir('../modules'...)` does not work.",1,StackOverflow
+203,span.ellipsis:after {&#xA},0,StackOverflow
+204,"Very convoluted (thank you Microsoft) way of getting IP addresses, but works and saved my day.&#xA&#xA	1",,StackOverflow
+205,This just doesn't answer the question.,0,StackOverflow
+206,"The second approach gives you better flexibility for UI. i.e. *ngIf=""i < 11 || showAll""",0,StackOverflow
+207,Have you made any progress in recreating the iOS10 Maps in your project?,0,StackOverflow
+208,"Building on this answer I switched to detecting the normal line ending for the platform instead of having to specify the environment, so: `""linebreak-style"": [""error"", (require(""os"").EOL === ""\r\n"" ? ""windows"" : ""unix"")]`",-1,StackOverflow
+209,please comment what's wrong give down voted,-1,StackOverflow
+210,"onChange passes an event object, to get the text you should use `event.nativeEvent.text`",0,StackOverflow
+211,If it correct please vote up&#xA,1,StackOverflow
+212,"Whilst the answer is not some native React process, this process has been the accepted answer for similar things like Angular JS 1 for a long time (due to performance and brevity). Upvoted",1,StackOverflow
+213,"Unfortunately that (label=""X"") didn't work out. I wanna replace 'A' by ""Start' and 'B' by 'End'. You can test http://plnkr.co/edit/YC2z4xH9ytdj0qc9w3lT?p=preview&#xA",1,StackOverflow
+214,"I asked about the same question yesterday http://stackoverflow.com/questions/43955310/rails-sum-on-associationrelation-attribute-is-incorrect-if-association-has-limit. Even the 'from' attempt is not working in rails 5, at least with a relation or PG. Guess there is not an answer, just use `relation.pluck(attr).sum`",-1,StackOverflow
+215,@amagain you should change the accepted answer to this,0,StackOverflow
+216,"This worked for me, I could see an exception barfed out on the command line, which got me moving.  Much obliged.",-1,StackOverflow
+217,Thank You Michal_Szulc : This helps me to read a external Application.groovy file but external file configuration are not applicable if same configurations are present in application.yml file. Can you please help me on this.,1,StackOverflow
+218,"@Andrew L. Actually, you can have an infinite amount of elements with the same 'id'. It is valid HTML. Nothing will stop you from doing so. It is just not handy for CSS and Javascript selecting ",0,StackOverflow
+219,I was wondering what if I would like to asynchronously return something from the `map` inside `method`. I mean `return String.valueOf(value),1,StackOverflow
+220,Is it possible to override the post method of a ViewSet as well?,0,StackOverflow
+221,"It's working on 1.10, I'm using it with `QuerySet.defer()`, thanks!",1,StackOverflow
+222,"So I followed all your guys comments in the questions, but I am still having issue. It is not finding PIL.",0,StackOverflow
+223,"I'ver tried in WebStorm 2016.2.3, but this solution doesn't work.",0,StackOverflow
+224,I know its late reply but it will help others.. If you use `margin-left: auto` then no need to use `float: right` property....! In my case it worked without it..,1,StackOverflow
+225,Thanks! Raghavan for president!,1,StackOverflow
+226,worked for me when I tried to rename apk automatically with current date,0,StackOverflow
+227,"""TypeScript itself not sensitive, but this compiled to JS."" what does this mean? tsc is not compliant?",0,StackOverflow
+228,"`$(this).val()` should do the same, with less code.",0,StackOverflow
+229,Just remove the ' around the `default_value` and it would use a variable called default_value,0,StackOverflow
+230,I too am trying to figure out how to send to Loggly *and* have local logs.,0,StackOverflow
+231,"This doesn't answer the question because it only gives an example of how to find data fitting a particular pattern, NOT how to extract all data.",0,StackOverflow
+232,Thanks! This is the only solution that worked for me for Heroes Tour using the angular cli.,1,StackOverflow
+233,This worked like a charm. Thank you.,1,StackOverflow
+234,Yes uninstalling 6.9.9 and installing 6.9.8 worked for me,0,StackOverflow
+235,"@GregoryArenius: I did some playing with that example, it creates/replaces the function ""inner"" (in same scope as ""outer"" function) every time the function ""outer"" is called, hence weird errors.  It isn't an ""inner function"" at all, and it it has no access to the inner scope of ""outer"" either.",-1,StackOverflow
+236,"aka, a programmatic solution",0,StackOverflow
+237,Is there a way to place the `Outlet` template (the one with the `let-item`) in another component? - not directly inside `my-component`?,0,StackOverflow
+238,"your piece of code is not working as you expect or you didn't read the question right : `string.split('()')` will split a string like ""left () right"" but not ""(left (right))""",1,StackOverflow
+239,So this issue is due to O.S Build target? I have the same issue here.,0,StackOverflow
+240,"how does enconding: ""myBody"" relate to any other code in this example? this answer is uncomplete althought accepted.",0,StackOverflow
+241,"<select  asp-for=""CountryId"" asp-items=""@(new SelectList(@ViewBag.MovieType,""Id"",""FullName"") )"">&#xA    </select>""",0,StackOverflow
+242,"The above is missing code and has some discrepancies, like 'removeLabel'",1,StackOverflow
+243,instead of 'removeLabel'.  See [here](https://github.com/baloodevil/angular2-custom-form-control) for a complete working example.,0,StackOverflow
+244,Thanks Thierry for putting the initial example out there!,1,StackOverflow
+245,How could I add more names to the filter? ..like keep Lisa AND Tom?,1,StackOverflow
+246,"if blank line between rows is an issue. just replace ""w"" with ""wb"" in file write object.",0,StackOverflow
+247,What the heck does this mean? What is this weird syntax???,-1,StackOverflow
+248,I now have a working Raspberry Pi again - apologies for the delay.,-1,StackOverflow
+249,"@mark-setchell Your solution is very close, though it outputs ""Delivered By:"" and a blank line when it first starts, and after each address it also prints a blank line.",0,StackOverflow
+250,How can I remove those two features?,0,StackOverflow
+251,"I also have a new requirement to put the Customer Reference number at the start of each line, so in the first example it would start `12400 / 203 1, First Last, HouseName, Street, Town, County, Postcode` - is that possible?",0,StackOverflow
+252,"This is a comment, not an answer.",0,StackOverflow
+253,I'm quite late with my reply but thank you very much for the feedback.,1,StackOverflow
+254,this helped me +1,0,StackOverflow
+255,"Hey, great solution and it works like a charm.",1,StackOverflow
+256,Do you also have a code snippet on how this would work with Android?,0,StackOverflow
+257,Thanks for your answer. You saved my day brother.,1,StackOverflow
+258,**Thanks** for the _detailed answerrr_ Helped me a lot,0,StackOverflow
+259,@anonymous your solution is good.,1,StackOverflow
+260,"How to use it when one uses `NestedScrollView` with `CoordinatorLayout` and `AppBarLayout`, any idea?",0,StackOverflow
+261,Any pointers to info on this please? My MVC + JPA tests keep trying to connect to the database before I can start it by calling dbService.start().,1,StackOverflow
+262,"@Lichtbringer There is a workaround, check my answer",0,StackOverflow
+263,How can I do this once I've already created my project?,0,StackOverflow
+264,This is nothing todo with this question? It's about displaying a profile not displaying and deleting votes,0,StackOverflow
+265,"This simply doesn't work. Just try running ``[[ `tmux -V | cut -d' ' -f2` -lt 2.1 ]]`` in bash. I get `-bash: [[: 2.2: syntax error: invalid arithmetic operator (error token is "".2"")`. The reason is that these test operators don't handle floating points, for which you need `bc`.",-1,StackOverflow
+266,Have you guys ever managed to pack a UWP as standalone exe?,0,StackOverflow
+267,"I have created a custom extension as 'public class RunningTime extends FunctionExecutor { ..... } ' as per the doc you have suggested. After building the jar i have placed it in 'dropin' folder. ""sample.siddhiext"" file entry is 'RunningTime=com.siddhi.sample.RunningTime'&#xA",0,StackOverflow
+268,Appears to be available for Windows Professional too.,0,StackOverflow
+269,PowerShell [command](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_10): `Enable-WindowsOptionalFeature -Online -FeatureName containers -All`,-1,StackOverflow
+270,Thank you for this.,1,StackOverflow
+271,super...works like a charm,1,StackOverflow
+272,"I want to pass ""col(""dfperson.personid"") === col(""dfprofile.personid"")"" as a string in join function. How to do that?",0,StackOverflow
+273,"For others that want to add future dates more easily try this, var components = DateComponents()&#xA            &#xA            &#xA            let futureDate = Calendar.current.date(byAdding: components, to: dateChosen), dateChosen is just this, let dateChosen: Date = Date()""",0,StackOverflow
+274,"Awesome extension! Perfect for any intervals of any datetypes, exactly what I was looking for :).",1,StackOverflow
+275,Thank you very much!!! You saved me a lot of time,1,StackOverflow
+276,@Moses Koledoye I had the same issue as user2133814 had. Your 'contextlib' idea works well for me. I should live with this. Thanks.,1,StackOverflow
+277,"Yep, works.",0,StackOverflow
+278,This seems a little random - anything in particular that led you to this?,0,StackOverflow
+279,"Simply awesome: ""let count = NSCountedSet(array: myArray).count(for: ""a"")""",1,StackOverflow
+280,This issue appears to have returned for crt version 10.0.10240.16384. And makes debugging very difficult.,-1,StackOverflow
+281,"I found that adding this directive to multiple elements in my component, due to the static `hammerInitialized` property, only the first element was wired up.",-1,StackOverflow
+282,"I removed the check and it seems to work better for me. (out loud ""cool"" also.)",1,StackOverflow
+283,IEx.Helpers.recompile/0 will crash running processes. It will also ignore compile errors by not loading the failed modules.  This makes it unusable for live coding.,-1,StackOverflow
+284,"Yep, this does it. :D",1,StackOverflow
+285,"Just linking to your own library is not a good answer. Linking to it, explaining why it solves the problem, providing code on how to do so and disclaiming that you wrote it makes for a better answer. See: [**What signifies “Good�?self promotion?**](http://meta.stackexchange.com/q/182212/200235)",-1,StackOverflow
+286,"""Context is king""",0,StackOverflow
+287,Thanks for sharing your answer. You just saved me a ton of time!,1,StackOverflow
+288,nginx configuration is totally irrelevant here.,0,StackOverflow
+289,Nice. +1. I'll have to test that out.,1,StackOverflow
+290,"But how to handle date picker? In my case, i need to display a date picker control based on the type 'DATE' received from server.",0,StackOverflow
+291,@erdemgc You should not miss to import FBSDKCoreKit,1,StackOverflow
+292,Joshua!!  You are a life saver!!!  Thanks so much!,1,StackOverflow
+293,"Hm, I wish this worked, but putting it in an initializer doesn't actually seem to require the files I want it to, at least when using the Rails 4+ spring-ified console (don't know how to test without Spring).",0,StackOverflow
+294,EDIT: This answer worked for me: http://stackoverflow.com/a/31961065/337446,0,StackOverflow
+295,"@TechZen When there's an NSError** parameter, the standard contract is that if you return nil you must set the error. It might have been pointing to garbage, and now the caller expects it to point to a valid object.",-1,StackOverflow
+296,"@Eugene I have implemented both HTTP servers and clients and don't see a problem with @meagar's reasoning. And I don't see a relevance between implementation experience and knowledge about a given protocol. And actually, HTTP was meant to be ""RESTful"" from the get-go, but rapid abuse of the protocol led us to the abundantly RESTless Web we have today.",-1,StackOverflow
+297,Thank you very much @mplungjan !,1,StackOverflow
+298,"For the referencing collapsing, see http://thbecker.net/articles/rvalue_references/section_08.html. The entire article, in fact, from page 1, is a good read. Read from the beginning to get the context of things.",1,StackOverflow
+299,Clever. ```padding-bottom``` to create space for the ```img```...,0,StackOverflow
+300,The InetAddresses Guava class is very useful. Thanks!,1,StackOverflow
+301,"It's always a good idea to put the actual answer and altered code here, for posterity -- we can't guarantee that jsFiddle or pastebin will exist for as long as this question does.",1,StackOverflow
+302,I'll leave a rebuttal here if that's ok with you. :),-1,StackOverflow
+303,@Bojangles: It doesn't matter because they do different things. (`.find` vs `.filter`). The performance test you added to your answer is irrelevant.,0,StackOverflow
+304,"UINT_MAX + 1 *is*, however, guaranteed to wrap around to 0",0,StackOverflow
+305,Thank you! Really helpful.,1,StackOverflow
+306,@avrohom try again.  I updated the code.,0,StackOverflow
+307,+1 for Moment.js.,0,StackOverflow
+308,Most reliable way to do this consistently across browsers that I know of.,0,StackOverflow
+309,"Please give a visual, you have two types of blue boxes, dark and light. They could be considered one blue box as the darker blue appears to be the header of the content in the lighter blue box. Do you want the lighter blue under the darker blue at all times? Then as a group _Liver Damage_ will be above _Kidney Dame_ on mobile and to the left on desktop?",1,StackOverflow
+310,Always a good idea to sanitize user input -- especially since the end-of-line character is different on different platforms,1,StackOverflow
+311,+1 This is a practical answer.,0,StackOverflow
+312,"If you're not under any real performance constraints, there's nothing to say that you can't do this.  The only thing that will kill you is if you put your database and web front end on the same box (this will kill you performance-wise).",-1,StackOverflow
+313,What if you don't have a user or password?,0,StackOverflow
+314,This was exactly what I needed.,0,StackOverflow
+315,"Also, I found out the reason why I was getting a ""seg fault"" is because I failed to add a title to the callout after setting the property to YES.  Once I added title selector it worked perfectly and shows the callout with title.",-1,StackOverflow
+316,"That could definitely be the case.  This isn't really an issue since we're not using autowiring anymore, but for curious parties I was able to reproduce this in a very small project using an area chart provided by an Adobe example and a context containing a view which is the chart's parent.&#xAhttp://www.vershun.com/projects/flexdebugbug/Test.fxp&#xA&#xAIf you run it after import you'll see it throws the error.  Editing the compiler flags and setting debug to true will hide the error.  My best guess so far is the debug mode doesn't honor scoping the same way non-debug compiled swfs do.""",-1,StackOverflow
+317,@JustinErswell See my updated query,0,StackOverflow
+318,Why include the `GROUP BY` clause? Surely it will work just as well without it?,0,StackOverflow
+319,Can we expect to be the only app? Do you have a source for that?,-1,StackOverflow
+320,I guess you're right... I'm 99% tending towards your opinion. Just waiting for someone who might've had any/some other experience :),1,StackOverflow
+321,Isn't this the same thing as listed in the original question?,0,StackOverflow
+322,"Angular make it so easy, and also your answer is so nice descriptive",1,StackOverflow
+323,"""Insert interval (p1,p2)"" you still have the problem of storing those huge numbers p1 and p2",-1,StackOverflow
+324,yes but that is another scenario,0,StackOverflow
+325,yes @Zinedin because you are using `System.out.println(positive),1,StackOverflow
+326,"thank you, did it for me!",1,StackOverflow
+327,That looks like a really useful plugin. It seems like it should be the default behavior. I'm going to try it out.,1,StackOverflow
+328,I was hoping for a standard conforming solution. However if no other solution is presented soon I will accept your answer.,1,StackOverflow
+329,It's already in there though. In the `java.awt.Point` class...,0,StackOverflow
+330,"The since-posted indexes look ok. If non-clustered (default settings can be overridden), consider making them clustered.",-1,StackOverflow
+331,"Indeed, I've missed that, thanks.&#xA",-1,StackOverflow
+332,"I tried,but not work.",0,StackOverflow
+333,Does the same go for `&` and `const`?,0,StackOverflow
+334,You can see an example here: http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/action-results,0,StackOverflow
+335,"When I remove both cases, I then have no ""attribute"" units, so how do I ""init"" the classes if that makes sense?   I just tried type.__init__(self) but then when I print ""type.feet()"" it comes out as unsuported operand type for * instance and float, but .value should be a float, not an instance.",1,StackOverflow
+336,@matt_tm It did in my link. How do you use `$displayName` afterwards?,0,StackOverflow
+337,"disregard...  df['SD.prevmo'].fillna(method='ffill', inplace=True) was the missing piece. thanks again John Galt.",-1,StackOverflow
+338,My update shows how to retrive 'security.token_storage' service using Autowire. Symfony >= 3.3 is required.,1,StackOverflow
+339,Thank you very much for your feedback!It does work indeed!,1,StackOverflow
+340,i tried it with my program but it gives me error,-1,StackOverflow
+341,"Curious, could a `var window = {}",0,StackOverflow
+342,one way would be to load the file as a list of characters using a container from stl e.g. std::list<char> then just walk through the list eliminating all vowels ignoring any other chars.,0,StackOverflow
+343,"I guess this solves the problem of getting out of the loop, but I am not sure if this solves the problem of keeping in the loop when the number enter by the user is greater than 6.",1,StackOverflow
+344,"Hi, Thank you very much for explanation!",1,StackOverflow
+345,"one question, why do you write [1] in .split(""@"")[1] ?",0,StackOverflow
+346,"If you are using FireFox, I recommended download FireBug which will show you the AJAX requests made in console: http://getfirebug.com/&#xAIf using Chrome, you can use the Developer Toolbar to view the remote requests.""",0,StackOverflow
+347,yes. lower android API level,0,StackOverflow
+348,Could you post the code?,0,StackOverflow
+349,"It is a C# 6 compiler feature, not a .NET 4.6 feature. You can run code using the nameof operator on .NET 4.0 onwards (I'm pretty sure you could target any version of the framework, but I happen to have tested .NET 4.0...!)",1,StackOverflow
+350,"Hi fl00r, thanks for the reply used rvm use 1.8.7 and got Using /usr/local/rvm/gems/ruby-1.8.7-p302&#xA",1,StackOverflow
+351,"For who ended up here because the icedtea6-native recipe was failing in Yocto: `EXTRA_OEMAKE += ""DISABLE_HOTSPOT_OS_VERSION_CHECK=ok"" `",-1,StackOverflow
+352,"thanks....changing the datatype of ""a"" to double i get the correct o/p,,, :D",1,StackOverflow
+353,Good idea but this plugin only works in new browsers anyway.,1,StackOverflow
+354,"@PabloMartinez FRC should take care of this in terms of performance, so you do not need a background thrad for fetching.",1,StackOverflow
+355,I forgot to tell that my site located at /home/myusername/www. Maybe www-data user can't write to home directory? Maybe it can work only with /var/www? How can I configure it?,0,StackOverflow
+356,"In the html source code, I see where the class is. But there is no text inside the tag which it's wrapped in.",-1,StackOverflow
+357,"@OzgurTmp, where you propose to add this code? Have you noticed, that this is ASP.NET?",0,StackOverflow
+358,"I would place each StackPanel inside a Grid, first. The Grid will stretch the full width and become the tap target, the 'root' visual for each item in the list. You may have to give the Grid a tiny alpha background colour (try it without first).",0,StackOverflow
+359,"hey @MikeTaverne to be totally honest I just can't be bothered  :)  I googled this **'stackoverflow.com animate a constraint swift'** and found 100s of examples, it is such a common question.  cheers!",-1,StackOverflow
+360,"Sorry about that. I'm on my phone, it should be lowercase. Just updated the answer",-1,StackOverflow
+361,JPA does not creates entries by itself. Only if you persist entries.,0,StackOverflow
+362,Apparently not because the field is explained in the docs: https://docs.djangoproject.com/en/1.5/topics/auth/customizing/#django.contrib.auth.models.CustomUser.USERNAME_FIELD,0,StackOverflow
+363,I think I understand the source of your confusion: CTRL-C is an interrupt and Visual Studio generates a  DBG_CONTROL_C in debug mode for convenience purposes. Ctrl-C is not an exception what is being reported is the DBG_CONTROL_C exception generated by debug mode.,-1,StackOverflow
+364,"it solved part of my problem too, thanks.",-1,StackOverflow
+365,"Thanks for the reply, but this made no difference. The Groovy dependencies still specify 2.3.10, and running the test gets the same error.",-1,StackOverflow
+366,@Toby check my answer below,0,StackOverflow
+367,Am I correct in that upon each return of AsyncTask I have to issue a new AsyncTask?,0,StackOverflow
+368,"No i'm calling a xml file, and i want to write the ip address in my textfield and when i press the back button it should save and load the ip address.",0,StackOverflow
+369,@SouravGhosh Perhaps it depends on the version of the standard. I have `N1570`.,0,StackOverflow
+370,"thanks a lot for your answer, following your links I was able to find [Immediate Requests](http://openid.net/specs/openid-authentication-2_0.html#anchor28) specs which sounds promising, but it is not in OpenID Connect for some reason.",1,StackOverflow
+371,Do you know if it is removed?,0,StackOverflow
+372,Also now I [found that](http://stackoverflow.com/a/24050911/1224211) OpenID Connect [does not support](http://lists.openid.net/pipermail/openid-specs-ab/Week-of-Mon-20130128/002981.html) Resource Owner Password Credentials Grant.,0,StackOverflow
+373,my $PATH is :  /mnt/USERS/user1/:/home/myLogin/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games,0,StackOverflow
+374,No improvement :(,0,StackOverflow
+375,To expand: you would not change the source code of your web server by first choice .. instead add code to a servlet to do what you need.,-1,StackOverflow
+376,No need to use [`.detach()`](http://api.jquery.com/detach/) unless you want to store what you've [`.remove()`](http://api.jquery.com/detach/)ed.,0,StackOverflow
+377,"I don't see this as a compelling reason, at least not with this example: #1 there are far better alternatives (an array of `std::unique_ptr`, `boost::scoped_ptr`, or even `std::auto_ptr` would be better) and #2 it is highly unlikely the pointer arithmetic will generate more efficient code than a loop through indices instead of pointers.",0,StackOverflow
+378,"I got it to work by using ""                 For Each company As Company In lCompany1 ,&#xA                Next""""""",0,StackOverflow
+379,"But I still wonder why ""First"" wouldn't work",0,StackOverflow
+380,This is how i configured it. as far as i am aware this is the only way to configure it,0,StackOverflow
+381,I'll give it a try and let you know the result. Thanks so much!,1,StackOverflow
+382,"True, thanks. It totally overlooked this.",-1,StackOverflow
+383,Android Studio 0.6.1,0,StackOverflow
+384,That is **the** answer!,1,StackOverflow
+385,"Balus, I think I see how my answer could be slightly confusing. After reading yours, it would seem to me that we've offered the same solution.",0,StackOverflow
+386,"I know, but that wasn't the purpose of the question!",1,StackOverflow
+387,"You're absolutely right, I was about to change my comment after reading more about this issue. The key here is that to go to NFC you first convert to NFD.",0,StackOverflow
+388,Read please: http://www.daniweb.com/web-development/php/threads/285850/settings-database-mysql-time-zone-help,1,StackOverflow
+389,"That's a bad solution: now the database will have 'UNKNOWN' as the value, but the entity in memory will still have null. The Hibernate documentation discourages the usage of dynamic inserts and updates.",-1,StackOverflow
+390,Thanks for the info! I'll try again later this month to see if it's fixed.,1,StackOverflow
+391,"Yes, I believe that is what caused this over what used to work fine.  I added the feature to the App ID on the portal, after which the provisioning profiles were marked ""Invalid"" in that portal.  I regenerated them, and they were corrected.  I reinstalled the new versions.",1,StackOverflow
+392,k.k.got that.then when i m coming back from second page to the respective position how to do that sir??,1,StackOverflow
+393,"Hmm I tried to manually assign a value (-1) to Type[0] and I'm getting this error...&#xAprocessing.app.SketchException: unexpected token: [&#xA	at processing.mode.java.JavaBuild.preprocess(JavaBuild.java:326)&#xA	at processing.mode.java.JavaBuild.preprocess(JavaBuild.java:197)&#xA	at processing.mode.java.JavaBuild.build(JavaBuild.java:156)&#xA	at processing.mode.java.JavaBuild.build(JavaBuild.java:135)&#xA	at processing.mode.java.JavaMode.handleRun(JavaMode.java:176)&#xA	at processing.mode.java.JavaEditor$20.run(JavaEditor.java:481)&#xA	at java.lang.Thread.run(Thread.java:662)",-1,StackOverflow
+394,See also http://stackoverflow.com/questions/15461737/how-to-execute-xpath-one-liners-from-shell for a catalog of XPath tools for U*x.,-1,StackOverflow
+395,@ElgsQianChen Follow the link to the documenation - You will see *$No binding of this**,0,StackOverflow
+396,I am using apache-jena-2.11.2.zip. I has modified my code according to your suggestion . Still getting blank in result.,0,StackOverflow
+397,"Please, don't use ""u"", use ""you"" instead.",0,StackOverflow
+398,Sorry! I haven't used inner binding... can't help you there :(,-1,StackOverflow
+399,"I was just trying to point out that several of the OPs questions on this topic are quite misleading. In his first question, he stated: ""I would like to get the DOM of a website after js execution. I would also like to get all the content of the iframes in the website, similarly to what I have in Google Chrome's Inspect Element feature"". And in another question, it seems he is actually trying (and failing) to run GUI code in a separate thread. I have now suggested to him that using a separate *process* might a be better approach.",-1,StackOverflow
+400,Much appreciated,1,StackOverflow
+401,The fact that CVS is in the Data namespace is completely irrelevant. MVVM is at a different abstraction layer on top of that.,0,StackOverflow
+402,"I'm not expecting a lot of code, a little pseudo code is enough. I think I didn't explain my problem good enough. I'm already able to unmask incoming websocket frames. But in this situation, when i send a big file, i.e. a jpg image file, from client to server, the sent binary is chunked in tcp. In this chunked stream there is the websocket frame (only one with fin bit set to 1!) and i dont know how to reassemble the chunked tcp stream, because there is still the one websocket frame. So i can't just concatenate the chunked tcp in a buffer",-1,StackOverflow
+403,Edited to clarify.,0,StackOverflow
+404,"I face one issue however, the selected directories are not indicated in the Files_name line edit in the dialog while the files are, although both **can** be selected and succesfully returned by the filesSelected(). Any workaround possible around this, to avoid the user ending up being confused?",-1,StackOverflow
+405,Thanks :) it worked.,1,StackOverflow
+406,-1 Fatal error:  Cannot use object of type stdClass as array,-1,StackOverflow
+407,direct after execution of Marks query it is in @@rowcount,0,StackOverflow
+408,Please show error coming  in console,-1,StackOverflow
+409,your 'suggestion' belongs in a comment field.. his code clearly violates Single Responsibility Principal and Seperation of Concern,-1,StackOverflow
+410,"_""The use of E-notation facilitates data entry and readability in textual communication since it minimizes keystrokes, avoids reduced font sizes and provides a simpler and more concise display, but it is not encouraged in publications.""_ https://en.wikipedia.org/wiki/Scientific_notation#E-notation",-1,StackOverflow
+411,"I guess it depends on if you need to pass an argument to your async module, which is usually the case for me (eg. an `id` or other params). In the first example if `const asyncFunc = (id) => ...` then you could use `id` in your function. You'd call it like `asyncFunc(id).then(...)`. But if you don't need to pass any arguments, returning the Promise directly is fine as well.",1,StackOverflow
+412,Thank you very much. That was so helpful!,1,StackOverflow
+413,"Do you want files, or do you want URLs? Make up your mind.",0,StackOverflow
+414,Thank you @david a. I added in the session the Connection objects of the individual users and it worked like a charm! :),1,StackOverflow
+415,"Hello BVSmallman, I could do it that way and it's much easier too.",0,StackOverflow
+416,But the idea of my program is to utilize try and catch exceptions which makes it more challenging to do.,0,StackOverflow
+417,Thanks for the reply!,1,StackOverflow
+418,"Actually, i got around that by piping in a one-line text file with 'n' as the only contents. It all works!",1,StackOverflow
+419,Edit: Change `NSNotification` to `NSNotificationCenter` in `(void)callMethodInClassA` in ClassB,-1,StackOverflow
+420,"Some hosts allow it some don't. If you're using a shared hosting account the limit may be in place to protect other customers. In my opinion 10 connections should do fine, and if you outgrow shared hosting you could always consider a VPS which offers much more control.",1,StackOverflow
+421,The behavior I want:&#xA right-click : popup the browser's menu.&#xA&#xAProblem is that Firefox (at least) treats control-left-click as the SAME as right-click (it fires the oncontextmenu event).,0,StackOverflow
+422,+1 for making it an extension method in addition to using generics.  Nicely done :),1,StackOverflow
+423,"Sorry, I meant to say that when I remove <body>{{> wall}} </body>, I loose all functionality in my app.",-1,StackOverflow
+424,I will look into your added edit. Very cool! Thank you! I marked as answer but don't have enough reputation for it to do anything :( Thanks again!,1,StackOverflow
+425,this worked great thanks,1,StackOverflow
+426,"ah sorry, fixing it",-1,StackOverflow
+427,@SayanPal don't know what you are trying to do,0,StackOverflow
+428,"It is probably it.  But I cannot change this setting. When I go to the Compatibility View Settings (this is on the customer server IE) the check box Display intranet sites in Compatibility view is checked and grayed. That is, I cannot change it.",0,StackOverflow
+429,It seems like `tf.image.per_image_withening` is replaced by `tf.image.per_image_standardization` due to https://github.com/tensorflow/models/issues/693,1,StackOverflow
+430,"In addition to your answer, I had to add superview to another line&#xA",0,StackOverflow
+431,"Even though I moved away from this, I returned to this problem again for a different purpose. To anybody else looking into this problem: [there is a paper](https://www.cs.rutgers.edu/~decarlo/pubs/sg03.pdf) that talks about various contours from meshes that's worth reading. Working implementation of the methods discussed in the paper are [available here](https://github.com/garyzhao/Sketch3DToolkit).",-1,StackOverflow
+432,Upvote for including your imports.,0,StackOverflow
+433,"You can delete ""private let heightAdjustment: CGFloat = 30.0"" because you don't use it",0,StackOverflow
+434,"I previously commented about being able to leave these values blank to just display the system-generated message, and while it works fine functionally, it appears that Apple will auto-reject your binary if you include these keys but do not set a value for them.",1,StackOverflow
+435,"To @rmpsmp: thanks for the jsfiddle, but you should remove these lines&#xA    if(t<0 || t>1){return({x:null,y:null,isColliding:false})}&#xAIt is not really outside the segment: If a ball with 10 pixel radius have its centre 1 pixel above the vertical line start, it does not detect collision. as it will be <0.&#xAYou do not have this kind of problem in your example, but if you have a rectangle in the center of the window, you will see the problem.""",-1,StackOverflow
+436,The alternative is to introduce a storage interface and unit test with a mock implementation I guess.,-1,StackOverflow
+437,@livsik.. please look to my question.I also struck in displaying message in swift http://stackoverflow.com/questions/41198651/xcode-8-1-push-notifications-in-swift-2-3-with-firebase-integration-not-getting,-1,StackOverflow
+438,Partial initialization in a protocol extension can also be combined with a failable initializer in a class/struct for a validating creational pattern: `init?(colorCode: String) { guard let color = NamedThing.colorFor(code: colorCode) else { return nil },-1,StackOverflow
+439,"Hi freinds, please tell me whats is regToken and how did i generate and also what is Constants.LEGACY_SERVER_KEY please help me about this",1,StackOverflow
+440,How can I understand if this is working for me. I submit form but there are no challenge for my form?,-1,StackOverflow
+441,I can confirm that setting `window.angularComponent[Ref]` inside the component will not compile with latest setup.,0,StackOverflow
+442,"However using `window['angularComponentRef']` will do just fine. This answer is excellent, thanks for your contributions günter",1,StackOverflow
+443,"The above solution didn't work for me, but the answer at this [link](https://stackoverflow.com/questions/39560288/unable-to-run-xamarin-android-project) did.",0,StackOverflow
+444,"@FI0v0 ... ya i have started the broker with my configuration ... i am running it on websocket support given by ""paho"" in python and agular JS",-1,StackOverflow
+445,"Select the text and right click, choose `Fold lines like this`.",1,StackOverflow
+446,"This is ES6 syntax, it [works fine](http://jsbin.com/kiweda/2/edit?js,output) in a sufficiently modern browser.",1,StackOverflow
+447,"Thanks @parliament, for the feedback. I've updated the answer",1,StackOverflow
+448,@Alex Riley - 100.77600002288818 seconds using groupby plus bfill (the non-null value's position is known) versus 1.2479996681213379 seconds using groupby then map. Plus one!,1,StackOverflow
+449,"See [MD2, MD4, MD5, SHA1, SHA224, SHA256, SHA384, SHA512 (Swift 3)](http://stackoverflow.com/documentation/swift/7885/cryptographic-hashing/25614/md2-md4-md5-sha1-sha224-sha256-sha384-sha512-swift-3) in Documentation",0,StackOverflow
+450,"Not working: &#xA{ """"conf"""": {""""org.apache.hadoop"""": """"org.apache.hadoop:hadoop-azure:2.7.2"""" }}&#xAthen:&#xA>JavaSparkContext ct = new JavaSparkContext()	0",,StackOverflow
+451,I have used it like this: `var negatedArray = myArray.map(value => value !== 0 ? -value: value ),1,StackOverflow
+452,"I have similar problem. Depending on some cases I need to show one of 100 pngs, how to do that with data binding?",-1,StackOverflow
+453,"Just a note for people trying step 1 : do it for each target you have, that did it for me! :)",1,StackOverflow
+454,wow! multiple yielding of conditionals instead of short-circuiting... mind blown!,1,StackOverflow
+455,for me import is working only `import { getMuiTheme } from 'material-ui/styles',0,StackOverflow
+456,"What does ""You can set it from `general`"" mean.  Who's the general, where does he live, and what army?  Need more context please.",1,StackOverflow
+457,"@chiborg -- thank you for that extra tidbit regarding the symbolic link, definitely needed!",1,StackOverflow
+458,"I'm on rc4 now and none of these work anymore. The objects do not contain ```tick()```, ```run()``` and ```detectChanges()``` anymore",0,StackOverflow
+459,Thank you! I then had to run `gem install rails` to get rails and it was all working,1,StackOverflow
+460,"@Delioth Hey! wait a minute:`>>> import re, >>> x.findall(""(this is (haha) a string(()and it's sneaky)) ipsom (lorem) bla""), ['(haha)', ""(()and it's sneaky))"", '(lorem)']` This doesn't work!",1,StackOverflow
+461,Only correct answer helped me,0,StackOverflow
+462,"@Nkosi, this is a great solution. However, with .Net Core 1.1 the Type.IsClass and Type.IsInterface properties are not available. As Felix pointed out a GetTypeInfo() is missing. Would you mind updating your code, since the question is about (ASP) .Net Core?",1,StackOverflow
+463,"Thanks, It works.",1,StackOverflow
+464,"when filling the buffer I get `Cannot assign through subscript, subscript is get only` error",-1,StackOverflow
+465,Thanks man!! It worked.,1,StackOverflow
+466,After installing the package VS still complaining!,-1,StackOverflow
+467,"@warrenm: dummy question, but how do you reference the metal file from the code snippet where you set the program?",0,StackOverflow
+468,This method is annoying because there is absolutely no way to automate it.,-1,StackOverflow
+469,The nice thing about using the %dep was that you could use the notebook API to load the jar,1,StackOverflow
+470,"A right operand that is too large always leads to a result that is too large. The standard might be extra explicit and call out the two situations, but there's no difference between them for signed types",0,StackOverflow
+471,"@sunilgogula please read my answer: ""Date.toString() uses your JVM's default timezone"". You just can't do this with a `Date`: you need to format it with a `DateFormat`.",-1,StackOverflow
+472,@aleejelly i have now coloured them blue for you to see there is no overlapping http://fiddle.jshell.net/6pyny04p/5/,0,StackOverflow
+473,@Roel Then contribute and update the examples then.,0,StackOverflow
+474,Now behat works without behat.yml?,0,StackOverflow
+475,"Thanks, user7013741973737",1,StackOverflow
+476,"@confile Colors are immutable, so no, you have to create a new color with changed alpha.",0,StackOverflow
+477,"Epic answer, respect to you sir.",1,StackOverflow
+478,@OlegTikhonov done :),1,StackOverflow
+479,I understand that. I need a way to make GlobalTable visible to other classes. At the moment it is done using singleton. Are there another way?,0,StackOverflow
+480,"Update Url changed, see https://marketplace.eclipse.org/content/glassfish-tools which refers to http://www.oracle.com/technetwork/developer-tools/eclipse/downloads/index.html",0,StackOverflow
+481,"...so to draw this back to the problem at hand rather than discussing this at the RFC level, why are you sending a POST again if you're not wanting to send the body on a 100-Continue?  You could get your Redirect from a GET request and then the amount of bandwidth being used is under control of the service and you avoid this quirk of IIS' implementation of Expect 100 Continue altogether.",-1,StackOverflow
+482,"If you look at what QLineEdit's `text()` returns, you will see that it is a Qstring.",0,StackOverflow
+483,"Now if you look at the QString documentation, you will see, how you can convert it to float: http://pyqt.sourceforge.net/Docs/PyQt4/qstring.html#toFloat",-1,StackOverflow
+484,@Qaesar: what is the input string?,0,StackOverflow
+485,"Okay, No problem ",-1,StackOverflow
+486,"Thank you a lot, @Andrew!  You save my life!",1,StackOverflow
+487,Doesn't work for me on mac. i found the 2 files but deleting them doesn't solve problem. Files are in /users/USER/Library/Application support/Code,-1,StackOverflow
+488,"@Tamseyc On the left, I have selected jQuery to be included, and now it works fine for me: http://jsfiddle.net/bazmegakapa/7qwAE/5/",1,StackOverflow
+489,"Argh, found so many of these questions and everywhere they fail to mention where to find the actual log files...",-1,StackOverflow
+490,Is it so obvious that everyone already knows?,0,StackOverflow
+491,"we can also do with array, but while finding number of integers we need to iterate over array until we found null to get actual length. it is easy with ArrayList, check updated answer @aldz24",0,StackOverflow
+492,"from your link, I reached [this](http://stackoverflow.com/a/1274447/2326627) answer",0,StackOverflow
+493,@tvanfosson Just what i was looking for! Thank you.,1,StackOverflow
+494,There is a typo in your example: tv.getViewTreeObserver().removeOnPreDrawListener(this),0,StackOverflow
+495,"You're right, that was the first approach",0,StackOverflow
+496,"Guys, see my update. I did a experiment here with both queries in a table where there are more than one million of tuples. It would be nice if you @unosbaghaii do the same.",1,StackOverflow
+497,@Deltics It depends. It's possible that this exception is intentional and normal. I believe that you are mistaken in your belief that all such exceptions must be defects.,-1,StackOverflow
+498,The article from the VS developer contradicts your belief.,-1,StackOverflow
+499,Did you read that article yet?,0,StackOverflow
+500,@Abel the previous reply was before your update and the Quirks mode.,0,StackOverflow
+501,"I'm not sure how to implement Peter's CData, wouldn't that turn off the javascript? if so then I imagine I turn off the javascript just for html validation then turn it back on.",0,StackOverflow
+502,checking into the quirks mode and your update now.,0,StackOverflow
+503,That should have worked. Try the edit.,0,StackOverflow
+504,No I said that I'l find any other way till nw I was using ur solution.,0,StackOverflow
+505,"I tried your solution on this command `until ""rsync --exclude-from /rsync-exclude-list.txt -av --delete --progress --stats --human-readable --checksum --timeout=3600 --partial-dir /tmp/ rsync://host:/tmp/ /tmp""Server 'myserver' crashed with exit code 127.  Respawning..`.""",-1,StackOverflow
+506,Any ideas why?,0,StackOverflow
+507,"@Johnathan, looking at the list, it seems that the new aliases (`sizeof`) is the preferred function, as it says the list is provided for people who want to bring the scripts `up-to-date`",0,StackOverflow
+508,"is there no way to not depend on external tools? I mean, is there any way to do the authentication from my script itself?",0,StackOverflow
+509,"@AudriusMeškauskas Nobody's offered anything better, and if someone asked me ""how do I sail my car across the ocean"" I wouldn't give them a detailed tutorial on how to convert it for amphibious use, I'd tell them ""get a boat"".",0,StackOverflow
+510,Thank you for the explenation!,1,StackOverflow
+511,I just updated my question. Would be so great if you could have a look at it.,1,StackOverflow
+512,"Got it. The trouble is, I'm not familiar with the Window plugin... reading through the docs now.",-1,StackOverflow
+513,@pearmak I already posted my workaround solution for that question. Give it a try.,0,StackOverflow
+514,"Alright, take a look at [6.2.1.2 One-to-many](http://grails.org/doc/latest/guide/GORM.html).",0,StackOverflow
+515,This is your database model. Does not matter when you add your subcategories one at a time or all together. Your model should be designed somehow to handle your requirement.,0,StackOverflow
+516,if problem in my code means how it is working in ios6. That's is confused me.,-1,StackOverflow
+517,"I too am not fluent with AFNetworking but [`AFHTTPSessionManager` docs](http://cocoadocs.org/docsets/AFNetworking/3.1.0/Classes/AFHTTPSessionManager.html#//api/name/PUT:parameters:success:failure:) don't show any way of including form data with `PUT` requests, only `POST`.",1,StackOverflow
+518,"I'm not sure you can use the `parameters` arguments to pass video data but very doubtful.  Have you managed to get this done?  If so, how?",-1,StackOverflow
+519,"@jalf: We realise that, which is why people are working to improve the toolchain and libraries.",1,StackOverflow
+520,@John: I tried adding the reference to a Class Library project and it creates the Reference.cs file but it's empty!,1,StackOverflow
+521,@Wade: I didn't vote your question down.,0,StackOverflow
+522,"In fact, I was quite interested to know whether you generate signatures with incorrect padding by doing exactly what you describe or if your description simply was not that precise.",-1,StackOverflow
+523,"To do so, I would have needed more input: e.g., the implementation of the signature generation, the signature itself, or the implementation of the verification.",0,StackOverflow
+524,There are quite a few Java implementations that are poorly written. It may well be possible that you are using one of them.,-1,StackOverflow
+525,I solved the problem myself. Thanks for the hints.,-1,StackOverflow
+526,Check my new answer.,0,StackOverflow
+527,"Sorry, I tought you use `System.IO.Compression.FileSystem.dll`.",-1,StackOverflow
+528,"If you can, use the .NET framework BCL.",0,StackOverflow
+529,worked!,1,StackOverflow
+530,"with new keystore file, sign of apk file was changed",0,StackOverflow
+531,hey thanks its working.,1,StackOverflow
+532,"Even if i dont register my custom handler in webInitializer, it works.",0,StackOverflow
+533,I just need to return the bean of the custom exception handler class that extends the 'DefaultExceptionHandler' class.,0,StackOverflow
+534,"@Clemens So after adding the items programmatically, one should be able to convert them like `ComboBoxItem cbi = (ComboBoxItem)comboBox.SelectedItem`, right? I tried this, but got an exception.",1,StackOverflow
+535,Works!,1,StackOverflow
+536,BUT WHY?,0,StackOverflow
+537,"Thank you, It is updating. cheers.",1,StackOverflow
+538,"Look in `c:\users\`, which is the correct location in Win 7.",0,StackOverflow
+539,@michael http://stackoverflow.com/questions/922210/unable-to-git-push-master-to-github,0,StackOverflow
+540,"That's an awfully hideous hack, solving a ""problem"" that's more likely based in a lack of understanding, than an actual problem.",-1,StackOverflow
+541,Yep mention not :),1,StackOverflow
+542,let us [continue this discussion in chat](http://chat.stackoverflow.com/rooms/35898/discussion-between-dietmar-kuhl-and-bartimar),0,StackOverflow
+543,"another user says that ""All **XHTML** tags must have ending tags but that for HTML many are optional."" logically your comment and their comment cannot both be true @RokoC.Buljan",1,StackOverflow
+544,deletes the oldest entries until there space to write the new one,0,StackOverflow
+545,Thanks but these domain names do not necessarily link somewhere that is just the way they are already. They may well be impossible email addresses but my need to read and match the right part remains.,1,StackOverflow
+546,"Also that 2nd last always being the domain doesn't encompass .com.au or .edu.au etc. there are both those and .com ""addresses"" in the user list which is thousands strong. I can't change their naming convention for users as illogical as it may be.",-1,StackOverflow
+547,"@Md.FarhanMemon: This question has nothing to do with `HashWithIndifferentAccess`, except for the fact that HWIA compounds the confusion many new people already have about Strings vs Symbols.",-1,StackOverflow
+548,"Just like `1` (`Integer`) is not the same thing as `""1""` (`String`), so is `""a""` (`String`) not the same thing as `:a` (`Symbol`) - but it is easy to convert between them.",0,StackOverflow
+549,"Easier, in fact, because all strings can be converted to symbols, but not all strings can be converted to integers.",0,StackOverflow
+550,on submit button,0,StackOverflow
+551,I am very brand new to PHP coding... what books do you suggest please for beginners and self-study?,1,StackOverflow
+552,Thank you once again.,1,StackOverflow
+553,Un-register these kinda of BroadCast is of no use.,0,StackOverflow
+554,But you can if you add these kind of setting in preferences and then un-register from activity where you had registered it first.,1,StackOverflow
+555,Thank you sir. I'll study this,1,StackOverflow
+556,It doesn't make sense so have the new onAttach(context) only be called form API >=23.,0,StackOverflow
+557,"And for older API's, we must use a deprecated function onAttach(activity)",0,StackOverflow
+558,"I really don't think `inout` is only in the language for backwards compatibility.  Plenty of other languages offer pass-by-reference options, which is essentially what `inout` offers.",0,StackOverflow
+559,"The official documentation recommends using `inout` for a simple *swap* function, for example, and there isn't a single reference to ""backwards compatibility"" or Objective-C in any of the `inout` sections of the documentation.",0,StackOverflow
+560,SCRATCH ALL OF THAT! I figured out that just `cubesSetings` is null for some reason. I don't why it is doing this though! D:,-1,StackOverflow
+561,Ah ok. Sorry didn't get that.,-1,StackOverflow
+562,Well another idea is to set a after insert trigger which will react on this case and generate a new guid for this.,0,StackOverflow
+563,According to the [documentation of fftw](http://www.fftw.org/doc/Real_002ddata-DFTs.html#Real_002ddata-DFTs) >FFTW computes an unnormalized transform: computing an r2c followed by a c2r transform (or vice versa) will result in the original data multiplied by the size of the transform (product  logical dimensions).,-1,StackOverflow
+564,"There is a need for a `scale`. `M_PI` is pi, that is 3.1415 (and a few more digits).",0,StackOverflow
+565,The fftw plans perform the change from `xold` to `xfourier` and `xfourier` to `xnew`. I did not find why storing `ynew` was necessary...,0,StackOverflow
+566,feel free to adapt that code to your situation !,1,StackOverflow
+567,Did this work fine?,1,StackOverflow
+568,I'm using Android Studio 1.2 and I can't import .aar library as module.,0,StackOverflow
+569,@user3734231 The result is stored in `$res`.,0,StackOverflow
+570,"@ScottChamberlain Ok, I did a benchmark and I was so very wrong. Thank You.",-1,StackOverflow
+571,One problem remains. how does a dictionary have O(1) without taking up 2^36 bytes of memory? what's the magic?,-1,StackOverflow
+572,Back-of-the-envelope calculations says that the 300K posts tagged [mysql] averages only 10K web pages asking for AJAX updates.  That's a lot less than your 1M.,0,StackOverflow
+573,"Suggest that you implement something, but plan to replace it in a few months.  Then get real metrics and look for better system designs.",0,StackOverflow
+574,"Ok, let's finish this, you're wasting my time. I told you several times what that pseudo-code was meant for and how to work with that. Simply take or leave it. Bye.",0,StackOverflow
+575,@Blender I'm using sys.stdout.write() here to make it more clear why sys.stdout.flush() is used.,0,StackOverflow
+576,"`emplace` or `insert` would be even more explicit, avoid useless assignation and manage class without default constructor (as `operator []` requires it anyway).",-1,StackOverflow
+577,"I did ""None"", then ""Visual Studio"", and it worked for me. (VS2012 + ReSharper 8.2)",0,StackOverflow
+578,@MattDeKrey would you consider including a link to MarkHughes' example in your answer?,0,StackOverflow
+579,"I found your answer extremely useful, but couldn't quite work out how everything hung together until I found his example, and it took me a good while to notice it down here at the bottom of the comments!",1,StackOverflow
+580,Many thanks to you both in any case.,1,StackOverflow
+581,Someday...I will be good at jQuery.,1,StackOverflow
+582,I do not think the second solution does what a description says. The `>` is interpreted locally. So the `outfile` is created locally. No point/need downloading it with `pscp`.,0,StackOverflow
+583,You have to wrap whole `mysqldump` command including the redirect to double-quotes to make it redirect to a remote file.,0,StackOverflow
+584,See [my answer to similar (if not duplicate) question](http://stackoverflow.com/a/28494574/850848).,0,StackOverflow
+585,"The string comes from the database itself. I also tried as a regular string var, same result. This is nonsense...",-1,StackOverflow
+586,Thank you @DiscoGolfer. Its making sense now. :),1,StackOverflow
+587,see the edit#2. I don't understand what -Xss does. Does it increase the number of items(functions) that can be put on the stack OR Does it increase the maximum size that an item in the stack can hold?,0,StackOverflow
+588,Because increasing the -Xss does not seem to increase the number of recursions before ethe exception.,0,StackOverflow
+589,But then the original problem reappears!,-1,StackOverflow
+590,Also it doesn't solve the situation when you click outside the image but because of the zoom the mouse enters the image again.,0,StackOverflow
+591,"Sure, you are welcome. I hope my answer have been useful.",1,StackOverflow
+592,"*FYI* It's all theoretical, and yeah caching will improve performance, at the cost of complicating your code, so unless you actually *have* a performance problem, don't bother. It the old adage about not tuning your code until you have a problem, because you may end up wasting your time on the wrong problem, so you don't have any time left to actually find and fix the real problem, if you even have one.",-1,StackOverflow
+593,See [Premature optimization](https://www.google.com/search?q=Premature+Optimization&ie=utf-8&oe=utf-8),1,StackOverflow
+594,Don't have the time.,0,StackOverflow
+595,"Go line by line in the link that I have on there, compare the output between their python and your JS",0,StackOverflow
+596,Do you understand me?),0,StackOverflow
+597,"@supercat: I've been giving your early-exit scenario a lot of thought, and I think I don't like it.  If we want to avoid explicit error checks and force the caller to stop, we can throw an exception.  The early-exit scenario would require the object to enter a failed state that might only be reset by a retrieval of the error code, which means that if we only care that it did fail but not why, it will never reset.  The more I look at this, the more I'd rather just return a bool.",-1,StackOverflow
+598,@LeoNatan I have another project and same issue here. If you have any solution for this problem then please give me answer,-1,StackOverflow
+599,"+1, that's the best technical reason.",1,StackOverflow
+600,The system defines several of those types of things as well - my answer has an example.,0,StackOverflow
+601,"Exactly, That is a good difference...",1,StackOverflow
+602,but why Laravel encourage plain,1,StackOverflow
+603,"I see. You should then use `object-fit: scale-down` or `object-fit: cover`, with `overflow: none`, and then trick arround with the `height` and `width` values.",-1,StackOverflow
+604,Also I don't get why you want to change the background image of an HTML tag that doesn't support it. You can't change the background of a space that only exists in its code.,1,StackOverflow
+605,"I recomend removing the `<img>` tag and keeping its parent div, or completely ignoring the `<img>` tag.",0,StackOverflow
+606,"Don't post just a link as an answer. After sometime, link may be broken, then your answer will be useless. Try to explain what it says here instead !",-1,StackOverflow
+607,"@dyp Actually, that very bullet point has been discussed thoroughly by the CWG, and is not defective.",-1,StackOverflow
+608,"Nevermind, I adjusted the answer.",0,StackOverflow
+609,"In my case, I'm streaming 3rd party content.",0,StackOverflow
+610,Thankk you very much for ur quick response .every thing is working fine now.@,1,StackOverflow
+611,exactly which is just mean to align the table.,0,StackOverflow
+612,If you dont want to show that just set its visibility to invisible not gone.,-1,StackOverflow
+613,https://www.microsoft.com/en-us/download/details.aspx?id=49504&#xA,0,StackOverflow
+614,"Are you sure you're pushing `'virtualPageURL' : 'virtual/registration/complete'` onto the dataLayer? If so, did you make sure to add an extra trigger to your GA page view tag in GTM so that the tag fires when you push the `virtualPageview` event onto the dataLayer?",0,StackOverflow
+615,"From what I can tell from your funnel visualization report screenshot, the virtual page view is not firing.",0,StackOverflow
+616,Would it help to convert the received data to a single data type in simulink then?,0,StackOverflow
+617,The arduino code error may have been solved but if I can't convert the data to anything useful in simulink then it's pointless.,-1,StackOverflow
+618,Edited answer.,0,StackOverflow
+619,"(match > -1 || text == "") instead of (match || text == "") line 108 in main.js",0,StackOverflow
+620,What's the difference between Backtrace in TF and in Crashlytics? Which one is better and why?,0,StackOverflow
+621,"This worked for me, saved a lot of time.",1,StackOverflow
+622,"yes, 1.4.1.min i use on the same page others jquery script   the alert is insie a javascript function call by a onclick on a link",0,StackOverflow
+623,Thanks Sam! Your answer also helped solve a similar problem I was having!!!,-1,StackOverflow
+624,@Firefog it is an imageview not listview to use onitemclicklistener,0,StackOverflow
+625,"Since `myString` is obviously a string, for most use cases it would be safer to initialize it to the nul string, '', rather than `None`.",1,StackOverflow
+626,"@Jake: It won't be reliable in browsers, as not all may recognize that URL pattern.",0,StackOverflow
+627,"That being said, [this project](https://github.com/commonsguy/cw-omnibus/tree/master/Introspection/URLHandler) demonstrates one using an action.",0,StackOverflow
+628,@GMan Thank you for showing `boost:lexical_cast` :D,1,StackOverflow
+629,@WillB so no spaces and stuff? Are you shure?,0,StackOverflow
+630,@jpw: Ah! The good old De Morgan's law. Edited.,1,StackOverflow
+631,"Hi Rob, thank you so much for your help.",1,StackOverflow
+632,"but I think there's something else here... I've just asked for help to a Java architect from my company. He's been unable to detect the problem since yesterday, so I guess there's something deeper in any configuration file.",-1,StackOverflow
+633,I will let you know when I know something new. Thaks!,1,StackOverflow
+634,Thank you!,1,StackOverflow
+635,It seems like it's a little complex to create a CRM for Iphone :),1,StackOverflow
+636,If you will post separare question outlining your problem you might find the answer.,-1,StackOverflow
+637,Your current question is too specific and might be not the best representation of your plans.,1,StackOverflow
+638,As I mentioned you can easily determine destination temporary table using BigQuery API. so in general you high levelidea looks doable,0,StackOverflow
+639,"Yep, that's right, just change the string ""inputfile.txt"".",0,StackOverflow
+640,"If you are running windows then don't forget to escape the backslashes ('\'). Example: ""c:\temp\myfile.txt"" becomes ""c:\\temp\\myfile.txt"". Enjoy :D",1,StackOverflow
+641,my point is if you start with one particular one you will quickly see where to find this information and that it is quite likely that arm puts its info in the same or similar place from core to core.,0,StackOverflow
+642,"You only need a webViewClient if you want to override its methods like when a page starts loading etc/ and no, I cannot see what is wrong.",-1,StackOverflow
+643,I don't know what will happen if you remove the http:// protocol portion,0,StackOverflow
+644,"`Configure::write('debug', 2)",0,StackOverflow
+645,ok check my updated answer now.,0,StackOverflow
+646,"So: `$('Body').delegate(""a[href*='/RightSizeOption/NewForm.aspx']"", ""click"", function(event) {&#xA&#xA  OpenPopUpPage($(this).attr('href'), RefreshPage) &#xA})&#xA` should do it?""",0,StackOverflow
+647,"@CarySwoveland, awesome joke! =) Yeah, good reminder that I need to be more careful with my wording.",1,StackOverflow
+648,"Open your eyes and you will find something like ""procedure TRecordEdit_View.InitData",1,StackOverflow
+649,comment this line $('.result').html(data),0,StackOverflow
+650,"oh wait, I think you just need to change `@vote` to `vote` because you are passing it as a local here `<%= render 'shared/vote_form', :food => food, :vote => vote %>`",0,StackOverflow
+651,Now it sims gud but still not properly formatted. You do the code formatting and try it out.,0,StackOverflow
+652,Hope it helps !,1,StackOverflow
+653,I'm trying Pravin's solution now -  I'll report back in a few days on my results . . .,0,StackOverflow
+654,Let us [continue this discussion in chat](http://chat.stackoverflow.com/rooms/123768/discussion-between-user3785322-and-pcpriyanka).,0,StackOverflow
+655,@salmanhijazi I actually like your solution better. Mainly because using the top attribute can be tricky because it centers from the top border. Not the center of the element.,-1,StackOverflow
+656,"Might be obvious for some, but still... Never run `cvf` on live web container managed (Tomcat etc) exploded web application.",-1,StackOverflow
+657,It will corrupt the WAR to be created and destroy current directory. Web container thinks it is a new WAR and removes your current files that are being archived.,-1,StackOverflow
+658,"Nadazhdin I used the Event Profiler.. I'm not sure how to use it but when I generate a report even on the other report that was working it traces ""Unable to retrieve SQL text""",0,StackOverflow
+659,"Ok.. so: the first one doesnt work, it (predictably) complains about not having a converter to get a boost::function from a boost::python::object, then I upgraded to g++ 4.5 (in order o use lambdas) and works great.",1,StackOverflow
+660,"Now, can you tell me exactly how can it be? please forgive my ignorance.. but even if I know about lambdas I cant figure it out WHY it does work.. and whats that function() at the last line? Thanx in advance",-1,StackOverflow
+661,Thank you.,1,StackOverflow
+662,I don't need code tho.,0,StackOverflow
+663,Simplest answer will be **LOGICAL OR**.,0,StackOverflow
+664,I revised my answer since it got downvoted - I removed the part where I explain how many of these services get this information but in summary - their popularity amongst developers helps them collect the data. I believe they are not taking it in bulk from Apple.,1,StackOverflow
+665,"Anyway, check out the free service I suggested and see if it would work for you, also make sure the EPFR you got is the full one.",0,StackOverflow
+666,"I'm still waiting on information by a friend of mine, I'll update you in case there is a way to get this info directly that I didn't know of.",1,StackOverflow
+667,"Your branch is up-to-date with 'origin/master'.&#xADropped refs/stash@{0} (7349ecc0f4a8aadc86d35e331c419b7ad5d64a87)""",0,StackOverflow
+668,"Ok, thanks for your help.",1,StackOverflow
+669,Let us [continue this discussion in chat](http://chat.stackoverflow.com/rooms/121994/discussion-between-shubham-khatri-and-m03a3a17).,0,StackOverflow
+670,I would assume that by saying **INSERT** or **BATCH INSERT** you also mean **LOAD DATA**???,0,StackOverflow
+671,"i know that **LOAD DATA** disregards many constraint checking, i have assumed before that it also will not perform any list look-up for deleted rows!",-1,StackOverflow
+672,@NelLau It is better to keep this in a list rather than having many different objects in the global environment.  You can do most of the operations within the list itself.,0,StackOverflow
+673,"Suppose you want to save each `list` elements as separate .csv files, `lapply(names(lst), function(x) write.csv(lst[[x]], paste0(x, '.csv'), quote=FALSE))` If you insist on having separate objects, `list2env(lst, envir=.GlobalEnv)",1,StackOverflow
+674,I have a fresh CentOS instance where I installed tomcat7 7.0.54 which has `ecj3-7.0.54.jar`.  Where else should I look for ecj jars as this one seems to be up-to-date?,0,StackOverflow
+675,"Okay, you were right about that then, but that doesn't fix the scrolling problem.",-1,StackOverflow
+676,"Here, I used your example to show you: http://jsfiddle.net/VjET4/3/",0,StackOverflow
+677,"I'm a bit confused now as to the problem. labels and images are matching in the collection view, cells are in the right order, but the images aren't in the right order?",-1,StackOverflow
+678,alrighty. THANKS!!!!!!!,1,StackOverflow
+679,"@arcy your answer was exactly what I needed, I was just having a bit of a derp moment and couldn't think how to get around it, the error message was that I couldn't invoke without a main method, I've fixed my work now with what you suggested, so thanks a lot.",-1,StackOverflow
+680,Sorry someone downvoted your question!  I just upvoted it.,-1,StackOverflow
+681,It would be forced to use is_array or is_string .... ???,0,StackOverflow
+682,Consistency is good code practice .... that is what you should promote ...,1,StackOverflow
+683,"It is working in the fiddle, but when I am trying the same in my code, it doesn't alert anything",0,StackOverflow
+684,"Ah, I got it! So if I import something in the __init__.py file, those items become first class members of the package as well!&#xA	1",,StackOverflow
+685,but above code works only in ie 7 not in ie 9,0,StackOverflow
+686,For some reason it all works on jsfiddle but not on brackets or notepad++. I tried different browsers and nothing changes.,0,StackOverflow
+687,cool.. thank you so much :),1,StackOverflow
+688,"of course, I am really appreciate for your time",1,StackOverflow
+689,@rubenvb: what do you mean by post mortem debugger?,0,StackOverflow
+690,I don't Konw is My question not clear or i can't understand your answer your code works fine but the prevouis question is still unanswered &#xA,1,StackOverflow
+691,"then you need to addevent lisnter in javascript..something like this document.getElementByClass("".iframeLink"").addEventListener(""click"", function(){&#xA   &#xA})	1",,StackOverflow
+692,I include a reference to `$state` in my controller but this same approach doesn't work in the interceptor,0,StackOverflow
+693,how would you redirect from the interceptor?,0,StackOverflow
+694,Check name/path for your angular.min.js and controllers.js file,0,StackOverflow
+695,"@RyanPatterson haha! If it is, I'll update my answer with the correct solution :)",1,StackOverflow
+696,"Yes I removed my code and replaced it with yours.  When i remove the append to the site does not filter the content.  For example at the moment if i click on the tops link to the left it will hide all other items and show just the tops within the first tab.  This is what i want it to do.  When i used you code, it hides everything",0,StackOverflow
+697,"Thnx ,I'll try this.",1,StackOverflow
+698,"@Laurence, I understand the doubts about non devs wanting to look at code but I assure this indeed true.  Half of preparing for a RC / Beta bug is figuring out how to explain a code diff to people who are not every day devs.  The first time I had to do this was an ... interesting experience.",-1,StackOverflow
+699,"<$php should change to <?php haha, working now",1,StackOverflow
+700,"@AugustoGoncalves, great, I am glad you helped!",1,StackOverflow
+701,"@user329539 sorry, not going to install Opera now - supporting the three major browsers is the most I can do ATM.",-1,StackOverflow
+702,It's possible to hide the buttons if the browser is not one of these to avoid confusion.,-1,StackOverflow
+703,So you're saying you don't get the html from getElementsByTagName?  What are you testing on?  The toast is showing the html for me.,0,StackOverflow
+704,"Taking a side-route, see: ***ANOTHER APPROACH (2016-09-17)*** near the bottom of the above posting.",0,StackOverflow
+705,ok if you can then send me your code,0,StackOverflow
+706,+1 and I don't see here any jQuery... wtf?,-1,StackOverflow
+707,Another problem is @Abjo's method extends build in String prototype. That some developers choose to be angry about.,-1,StackOverflow
+708,"Ah, right - I was being lazy.",-1,StackOverflow
+709,"Take a look at this MSDN article, it might help to understand a bit: http://msdn.microsoft.com/en-us/library/77s47661.aspx",0,StackOverflow
+710,you got to ask DevExpress support about that.,1,StackOverflow
+711,@DavidEisenstat That probably doesn't meet the O(1) space complexity but at least the space requirement doesn't depend on the size of the array,0,StackOverflow
+712,"I would suggest keeping with the spirit of Swift and removing the explicit type declaration on `controller` and `label`, e.g. `var controller = UIViewController()`.",0,StackOverflow
+713,"One of the major principals of Swift seems to be about removing ""noise"".",0,StackOverflow
+714,"yes! is running, how can I have access to the script? where its store? thanks for you help man.",1,StackOverflow
+715,I cannot see that property too: https://msdn.microsoft.com/en-us/library/system.windows.forms.savefiledialog_properties(v=vs.110).aspx,1,StackOverflow
+716,Yes!!! that works.,1,StackOverflow
+717,"For some reason I was insisting on finding the ""pair"", when you simply meet the two criteria sequentially. That works. You were correct that I wanted a pair from each side of the criteria. I was looking for the the pair (500,10) or (10,500) but not (10,10) or (500,500).",0,StackOverflow
+718,Also your version runs ~3x faster on the full database. Thank you very much! I clearly have a lot to learn.,1,StackOverflow
+719,Thank you very much! I clearly have a lot to learn.,1,StackOverflow
+720,http://stackoverflow.com/questions/30571/how-do-i-tell-maven-to-use-the-latest-version-of-a-dependency/1172371#1172371 the last version of a maven artifact is not the release.&#xA,0,StackOverflow
+721,"Using E.g. [0.1) i can select the Latest release anyway, but there is no way to select automatically the current release?",0,StackOverflow
+722,"I've been getting ""jsPerf is temporarily unavailable while we’re working on releasing v2. Please try again later."" for a day or two.",-1,StackOverflow
+723,Did you run the test manually?,0,StackOverflow
+724,If it still appended HTTP/1.1 you need to clear browser cache.,0,StackOverflow
+725,does your browser console displays an error like 'count undefined'?,-1,StackOverflow
+726,"A navigation controller explicitly contains a nav bar, controllers pushed onto the stack will be asked for their nav item and it will be used to update the nav bar. Navigation controllers do not explicitly have a tab bar so the same thing doesn't happen there. You would need to handle the tool bar yourself.",0,StackOverflow
+727,"@Alice&#xA	0",,StackOverflow
+728,"Did I get that right that you only want schools where *at least* one bar and *at least* one rest. is nearby, not just one of them?",0,StackOverflow
+729,"Also, is the updated query with `LATERAL` faster (fewer notices?)",0,StackOverflow
+730,"@TobyAllen Thank you :). The odd thing is that my network does not support ipv6, yet my server (windows 7 machine) reports its IP as ::1, the ipv6 loopback address.",1,StackOverflow
+731,"Btw, I used to assign the timer to an ivar, but got rid of that. Yeah, that was stupid, and probably what got me into this mess.",-1,StackOverflow
+732,"Sorry @yehia, I don't know if it is feasible to use pure java files for AspectJ.",-1,StackOverflow
+733,@Quassnoi: Let's see after my update with 4 permutations...,0,StackOverflow
+734,@ЕвгенийБалашов still contrary to the methodology of BEM.The modifier should not contain block style. Only overwrites. You may use mixins,-1,StackOverflow
+735,@John There's still more relevant code missing...,0,StackOverflow
+736,Basically anywhere you set a value by calling a method that you haven't posted makes that line of code indecipherable.,1,StackOverflow
+737,I'd honestly recommend just posting your entire project online and posting a link.,0,StackOverflow
+738,@konainali Didnt this work for you?,0,StackOverflow
+739,"not that I am aware of, the only thing I found on the issue is this link http://stackoverflow.com/questions/16238628/what-happens-when-you-swipe-an-app-out-of-the-recent-apps-list-on-android which says its the same as using `killBackgroundProcesses` which will not call onDestroy when used.",0,StackOverflow
+740,If you call that in your activity it still runs but stops everything else like you said,1,StackOverflow
+741,"var body = filter.Item2&#xA                    typeof (String).GetMethod(""""Contains""""),&#xA                    new Expression[] { Expression.Constant(v) }), Expression.Constant(true)))&#xA                .Aggregate(Expression.Or)	1",,StackOverflow
+742,"Leigh, understood but I felt what I had at the time could prove helpful to someone until I had time for testing a full answer.  I've edited the answer after testing it, so can you upvote and/or mark as correct?  Or can only the person who asked the question do that?",1,StackOverflow
+743,"Santose: In MVC 1, on the next request. In MVC 2 beta +, when it is next read.",0,StackOverflow
+744,"`new Dictionary<string, object>(){{""aaa"",value}}` or even you can use any other overload with matching parameters with this idea",1,StackOverflow
+745,"I'm probably asking a lot, but I've added to my original question my understanding of you're suggesting (well it's pared down a lot from my actual context, but that's just to save on bloat).",1,StackOverflow
+746,"Predictably, I am still doing this wrong. I don't, however, understand why. : /",-1,StackOverflow
+747,..and how do you choose the length?,0,StackOverflow
+748,then could you please guide me how should I do that. I am totally new to gitLab as well as Ubuntu. :(,-1,StackOverflow
+749,"what path should i provide in url for request. whether i  include post or not or else 'server/..../user_image_upload' something like that (As per your example), cuz i have to update to specific record by showing file name of uploaded file in table.",1,StackOverflow
+750,And thanks for responding.,1,StackOverflow
+751,What a relief it's not some XCode nightmare!  Thanks!,-1,StackOverflow
+752,"Excuse me, how does the `int(s) for s in file.readline().strip().split(' ')` work? What if for example the line is `6 4 7`? And doesn't strip require a parameter?",0,StackOverflow
+753,let us [continue this discussion in chat](http://chat.stackoverflow.com/rooms/46935/discussion-between-markcial-and-pro-grammer),0,StackOverflow
+754,"I will documenting regarding the view call open(""{#row.id}"", ""{#rov.form}"")  that Frantisek suggests to use.",0,StackOverflow
+755,Yes! There is a method called `eventLoop()` in it. It is the method in which all this takes place (as from the output).,1,StackOverflow
+756,THANK YOU VERY MUCH!!!!!,1,StackOverflow
+757,"@JonCrowell - I'm not saying it is more readable because it is shorter, I'm saying it is more readable because it is _ruby_... it is like initializing variables with 'null' in Java, or asking for the ""lift"" when you are looking for an elevator in America - it looks awkward and out of context, and hence breaks the reading.",-1,StackOverflow
+758,"all i want to do is select any random question from an arraylist, and make sure that the question doesn't gets repeated after it's been asked.. the way you are telling is will go orderwise as far as i guess so. now i hope my problem is clear to you.. if there are 50 questions. i want any of the question from all the 50's to be asked. no matter it might be the 40th one first time. but after it has been asked , it shouldn't be repeated. All 50 questions should be asked randomly",1,StackOverflow
+759,Thanks for all your help on this. I think we may be at a dead-end here so I'm going to attack this from another angle.,-1,StackOverflow
+760,"@Kevin, -containsObject: looks for membership the same way as -member: does. The only diff is returning BOOL versus the object itself.",0,StackOverflow
+761,"@AdrianIftode ""Exception in thread ""main"" java.lang.NoClassDefFoundError: TestPrivileges$1"" Indicates the you didn't include that class when building the jar, do this""jar cvf TestPrivileges.jar TestPrivileges.class TestPrivileges$1.class""",0,StackOverflow
+762,Ok i see. Thanks for the answer.,1,StackOverflow
+763,Will you be able to accept my answer @user3288891?,0,StackOverflow
+764,Which is more efficient?,0,StackOverflow
+765,"Tried that too.. added this "",glue={""com.cucumber.learning""}"".. but didn't work",0,StackOverflow
+766,Faster comparing to...?,0,StackOverflow
+767,"Ok so far I fetch only a workbook `checker` that you give as `""\\gb-ss04\001_DATA\WH DISPO\(5) WH SHARED DRIVE\(21) WAREHOUSE RECEIVINGS\Order Checker.xlsm""`.",0,StackOverflow
+768,"Let us make it work with this for now, and if it works we can later modify it to look for another workbook name.",0,StackOverflow
+769,"Where it is still in scope, zero in your example still denotes an enumerator even outside the enum definition.",0,StackOverflow
+770,I just realized why it isn't working. The boolean where if it's set to False doesn't show schedules set to True that are already assigned. The schedule is already assigned so of course it isn't going to be listed.,0,StackOverflow
+771,I changed the value to False with the schedule still assigned to test it and the schedule prepopulates like it's supposed to.,1,StackOverflow
+772,So you were awesome. Thank you.,1,StackOverflow
+773,I rewrote the LINQ as  .Where(s => s.IsScheduleAssigned == false || s.IsScheduleAssigned == true && s.ScheduleSummary == user.ScheduleSum) to fix this.,1,StackOverflow
+774,Thanks for all your help,1,StackOverflow
+775,@Cheese great! you welcome!,1,StackOverflow
+776,When or why would you use ever ClassData?,0,StackOverflow
+777,It looks like just a heavier version of PropertyData.,1,StackOverflow
+778,"Instead of making that whole IndexOfData class, I would much rather just turn that _data field into a static property and use it in a PropertyData.",-1,StackOverflow
+779,@David you are welcome. :),1,StackOverflow
+780,"@TravisR: Thanks for the update, I just turned this into a community wiki to make it easier for everyone to keep it up to date.",1,StackOverflow
+781,"As of Docker 1.11.0, using `--email` is deprecated",0,StackOverflow
+782,Above example still valid minus that argument.,-1,StackOverflow
+783,Glad it works. :),1,StackOverflow
+784,@OZ_: Well that's exactly what I've written.,0,StackOverflow
+785,You make the exception part of the standard program flow by using the switch statement onto them instead of try/catch.,0,StackOverflow
+786,Yes. you are correct..,0,StackOverflow
+787,should I need to download status locally before closing??,0,StackOverflow
+788,You are talking about build variants: http://tools.android.com/tech-docs/new-build-system/build-system-concepts.,0,StackOverflow
+789,"In your environment they'd be named flav1Debug, flav1Release, etc.",0,StackOverflow
+790,Also see http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Type-Product-Flavor-Build-Variant,0,StackOverflow
+791,here my xml file is Arrays.xml,0,StackOverflow
+792,thanks.,1,StackOverflow
+793,"actually, i still have a problem. the selectedBitmap in onActivityResult is always null. any ideas?",-1,StackOverflow
+794,"AndreyT is correct hashing a word is O(m) (m number of characters in the word) so over the whole document hashing will be O(n). Same for the comparison required when retrieving the word from the hash and storing in the arrays. Many of the O(1) operations are O(1) word, but O(n) characters. The algorithm is still O(n) characters.",0,StackOverflow
+795,"@Ennakard: I don't know what ""writing them line by line"" means �?presumably `print >>my_file, my_list`.  This would also involve serialising the data to strings.",0,StackOverflow
+796,"I don't know what is faster, but if you are writing big amounts of data, this process will be dominated by disk I/O anyway, and pickle will win due to being a more compact representation.",-1,StackOverflow
+797,"If in doubt and it really matters, measure yourself.",-1,StackOverflow
+798,"@Darkice Can I use gstreamer-sharp on Mac OS, iOS and Android?",0,StackOverflow
+799,"Alright, post is updated and thanks for your good hint!",1,StackOverflow
+800,Let us [continue this discussion in chat](http://chat.stackoverflow.com/rooms/117174/discussion-between-muhammad-yaseen-and-michael-l).,0,StackOverflow
+801,"Yes, When you scroll thn top cell go under reuse process and that comes as a last cell & if it contains red image than defiantly if it reused for last cell than it will contain red image.",-1,StackOverflow
+802,I guess the sub-process way is the correct one to tackle the problem.,-1,StackOverflow
+803,The IO will slow down the process but it's not much different from using exec() .,0,StackOverflow
+804,"@Joop Eggen this is example data, it's not real table structure",0,StackOverflow
+805,@raghu.. then its work? for you,0,StackOverflow
+806,Thank you so much.,1,StackOverflow
+807,"@slott I am trying to do just that, a single activity architecture.  I definitely feel that I am getting bogged down.",0,StackOverflow
+808,"The dilemma, though, is that fragments load in so much faster than launching new activities.",-1,StackOverflow
+809,@IgorJerosimić The problem is the local('Oswald Bold') in the Google CSS.,-1,StackOverflow
+810,thnx for d answers.,1,StackOverflow
+811,i guess i have to install it using my mobile internet.,0,StackOverflow
+812,for the reasons listed by others. a high profile answer like this is definitely going to encourage bad habits.,-1,StackOverflow
+813,Nepster has a good solution to this problem,-1,StackOverflow
+814,"Thanks guys, I will use parameters.",1,StackOverflow
+815,"Taking a look at the documentation, I don't know if `Classes/**.*` can be the right string you have to type. I think that it will not accept the * for the extensions (it is only my opinion).",0,StackOverflow
+816,"Try typing the exact extension file like you did ( `{h,m}`).",1,StackOverflow
+817,"In fact, I saw other podspec files and all of those use the `{h,m}` instead of `*`",0,StackOverflow
+818,"`document.ready` is called when the DOM load is complete, which is when your view gets rendered. A ajax load which appends `html` to an existing div doesn't trigger the same. You can wrap `SetupMenuItems` in a anonymous function and invoke it immediately: `(function(){  /* SetupMenuItems code goes here */})()` as the ctx but not sure if this will work.""",0,StackOverflow
+819,"@tmyklebu - because it is ungrammatical, and difficult to parse.  Change ""decide"" to ""decide that"" and the meaning becomes more clear.",-1,StackOverflow
+820,I understand.Thanks.,1,StackOverflow
+821,"As the robot says, it's much simpler to do that if you want to put multiple of them together.",0,StackOverflow
+822,so in that case you can not drive through this folder of device as yo can not see this folder,0,StackOverflow
+823,"I basically copy and pasted your code, errors for both lambda arguments passed to SetupHook() and yes, I am indeed using visual studio",-1,StackOverflow
+824,"@Barmar nope. When I had my URL incorrectly I did get an error. Now i just get nothing, which suggests the start of the URL is fine but I'm not adding the right request to the end of the URL to get the `product` data in the JSON",1,StackOverflow
+825,Run `uname -r` (which is part of the Makefile),0,StackOverflow
+826,Link not works.,0,StackOverflow
+827,I'm just going to assume I'm not getting more responses.,0,StackOverflow
+828,"ah wait now I ustood.. sorry my mist.. I dint see the order by there.. anyways i was caught aloof by the missing ,",-1,StackOverflow
+829,did u change the name of your apk?,0,StackOverflow
+830,"To put it another way, when a thread acquires (locks) a critical section it locks out all other threads. That lasts until the owning thread has released all of its locks on the critical section, at which point another thread (or the same one again) may become the new owner and lock-out all other threads.",-1,StackOverflow
+831,Did you found any luck? you can accept this answer if this is your solution,1,StackOverflow
+832,"IE and Edge sends a request to the server if `src` is set to `""`, similar to `img` elements.",0,StackOverflow
+833,"The attribute should instead be removed, [as recommended by the standard](https://html.spec.whatwg.org/multipage/embedded-content.html#best-practices-for-authors-using-media-elements).",1,StackOverflow
+834,"@M.Deinum: Right, it will work for recent versions for EL implementations.",0,StackOverflow
+835,"@AmritKahlon I'm after a solution to use Checkout from an Android webview, how did you get on?",0,StackOverflow
+836,"@Yadheendran - The calls to ""parallaxScroll(NUM_OF_PIXELS_TO_SCROLL)"" take a parameter, if you increase the magnitude of the parameter it will scroll faster.",0,StackOverflow
+837,"You could also decrease the interval time on the ""window.setInterval"".",-1,StackOverflow
+838,"I replaced my code as ""SQLiteOpenHelper helper = new SQLiteOpenHelper(this)",0,StackOverflow
+839,"@Param There is an edit link at the bottom of your question. I would strongly implore you to read through what I have said very carefully and try to understand what I am saying. Questions about that are fine. But unless to tell each discrete item what weight range can be applied to it, then any other way of matching requires ""brute force"" and is not an efficient search. I'm not trying to solve on the data you presently have, but advising you as to what you should do to make life simple.",1,StackOverflow
+840,try to add .url at the end:&#xA,0,StackOverflow
+841,@JesúsSánchez I just mean that if another developer was to use your GenericRepository it may come as a surprise if the behaviour suddenly is different when T is IAuditable.,0,StackOverflow
+842,Please add port in database.yml which is accuaring by your database postgresql,1,StackOverflow
+843,yes sir. But i get the same error,-1,StackOverflow
+844,"@MarkReed, I have updated my answer. Is this more right? Or am I still missing the point?",0,StackOverflow
+845,"@JanGorecki, I actually don't have any issues with how many arguments `data.table` has (I phrased this poorly), but for example sometimes I feel that `i` shouldn't be used for both joins and indexing, though the compact syntax is nice (as opposed to `merge`), so I basically have mixed feelings about it.",-1,StackOverflow
+846,"And btw, you really should not echo the error message, because if error happens, the error will be send to the client and be written into your DOM document (HTML select). The cities should be either sent, or not (empty response body).",-1,StackOverflow
+847,"To distinguish whether or not the response is valid, is by using HTTP status code. https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",0,StackOverflow
+848,The problem is that you *constantly poll* but don't like that the constant poll constantly consumes resources.,-1,StackOverflow
+849,"@amit: You must trust that your compiler will use the best it can from the hardware. You might want to verify this by inspecting the generated code if there is a performance bottleneck, but the compiler usually knows the architecture better than we do.",1,StackOverflow
+850,You might want to look [here](http://stackoverflow.com/a/7186810/36565),0,StackOverflow
+851,@Yasoda can you tell about above comment,0,StackOverflow
+852,@manoel usually the naive simple algorithms are the recursive ones and the tricky ones are the non recursive variants.,-1,StackOverflow
+853,"forgot to mention, I have a runner class that does the printing but isn't functioning in this case.... It's now mentioned in my OP",0,StackOverflow
+854,"@Mr.Alien Edited to clarify. And I failed to mention also entirely feasible in a great many cases. Dynamism on pages is something I strive for, surely, I'm not against this, but to assert that to do otherwise is _wrong_ is, well, _wrong_.",-1,StackOverflow
+855,"@user59 weird, how could Arabic characters be encoded in Windows-1252?",-1,StackOverflow
+856,"Use $name = iconv('cp1252', 'utf-8', $name)",0,StackOverflow
+857,@Marco Demaio: The `$Version=1` attribute is part of the RFC specifications to identify the cookies of those specifications and might get important when browsers start to implement them (although I’m not sure how the `document.cookie` value will reflect that).,1,StackOverflow
+858,"Ya, what's uniqueStringRepresentation?  Doesn't seem to be a nsoutliveview method.",0,StackOverflow
+859,"@supercat: Agreed that it's too bad Intel didn't do something more useful with the flags for IMUL.  Although honestly, if it saved any transistors, I don't blame them.  Reading flags after IMUL is really rare, and compilers still generally don't do that (because integer overflow detection is usually not done at all).  It just means an extra instruction to detect overflow in some cases, or maybe having to use the one-operand form, I think.",-1,StackOverflow
+860,"@BenAlpert, yes - good point.",1,StackOverflow
+861,Edited above.,0,StackOverflow
+862,That's insane. Like *literally* insane. Why does it behave that way? Thank you very much!,1,StackOverflow
+863,It inherits UIView that does however.,0,StackOverflow
+864,yes but you're not guaranteed that someone else is not using `data-href` attribute for something else in the underlying libraries or templates.,0,StackOverflow
+865,"Hah! I tried, and I didn't work, but I wonder why I don't see other answers here not using your mechanism, I mean they just directly set the lineSpacing. See the accepted answer...",1,StackOverflow
+866,"Thanks a lot, that did work and the file is now going into the ftp folder.",1,StackOverflow
+867,"The only issue im having now is that the file name is no longer being inserted into the database, any ideas?",0,StackOverflow
+868,"No errors and I know the sql query works because if i remove the image upload stuff the name goes into the database, new code edited above. Thanks",-1,StackOverflow
+869,"@repeat - Sorry, you're right.",0,StackOverflow
+870,But the same problem still exists.,-1,StackOverflow
+871,"Sure, but I still don't get your point about constructors. Same 'Why' here :)",1,StackOverflow
+872,Last Question! Can you refer me a good resource where I can understand MySQL quiet deeply and with solid explanation?,1,StackOverflow
+873,Sorry i didn't get,-1,StackOverflow
+874,@meher there are many other BroadCastReceiver that you can use to start your Service. For e.g: Date and Time change.,0,StackOverflow
+875,"okay thanks, thats a good idea. Nobody has to spend time answering questions here but it's great helping eachother out, I am sure it will be on point and you will be rewarded, thanks!",1,StackOverflow
+876,It is not necessary but i say taht supposing that you are using a javascript function to submit this form&#xALook i think you must do a var_dump($_POST) in your page that will show results and detect how posted variabled acts&#xA&#xAfor the first time you access the page what do you have as posted variables&#xA&#xAThen after applying some search condition what variables are posted&#xA&#xAThen after sorting the result what variable sorted&#xA&#xA,0,StackOverflow
+877,@CaptainGiraffe: Since strings are immutable you can just use the original - no point in making a copy,0,StackOverflow
+878,"thank you all , problem solved.",-1,StackOverflow
+879,"Yes, installed couple of days ago, CI 2.2.1",0,StackOverflow
+880,"Hope you found the answer useful. If so, you may accept it.",1,StackOverflow
+881,finnally solved....,0,StackOverflow
+882,"also need to remove the "", foreign key=xxxx"" from    has_many :presenters, :foreign_key => ""person_id""",-1,StackOverflow
+883,"@Qantas 94 Heavy sorry, i edited the wrong post. (can't add comment on the post bellow, lack of reputation, sorry again)",-1,StackOverflow
+884,It will be a valid jquery object but it won't contain any elements. If you do alert(textBox1.length),0,StackOverflow
+885,"Another way would be to target all inputs with class gh ""$("".gh"").live(""keyup"", function(){})",0,StackOverflow
+886,But using class selectors without a set id root can be slow in IE as IE doesn't support the base getElementsByClass.,1,StackOverflow
+887,"So on the `PHP` side, have it write the contents of a database table to file, save that, and then pass the file location across so to be read in the `C++` program, [kind of like this](http://stackoverflow.com/questions/6574927/exporting-mysql-table-to-txt-or-doc-file-using-php)?",1,StackOverflow
+888,that did the trick for chrome ... luckily in this case i only needed to support wekkit ...,1,StackOverflow
+889,ok. 1 last question which will be root view controllor?,0,StackOverflow
+890,"thanks, for the explanation any chance i can get a like in the question?",1,StackOverflow
+891,"@Paul one would be Herb Sutter of the ISO C++ committee. He cites this multiple times, but Modern C++ Coding Standards is a good one to check out. Stroustrup also goes into this in The C++ Programming Language (why do you think he allowed it so we don't have to define all variables at the top of a block?).",-1,StackOverflow
+892,@Norman: I see what you mean.,0,StackOverflow
+893,Is it okay to assume that part 4 will always start with `1`?,0,StackOverflow
+894,"@EJP Several times, as a matter of fact :) . user1056561 : Test your own code, I've answered enough of your questions.",1,StackOverflow
+895,I get an XmlHTTPRequest Error. It apparently cannot parse a local file,0,StackOverflow
+896,@AakashM Thanks for your Reply. Now I understood.,1,StackOverflow
+897,"My answer mentions that you need to manually unpack the AAR if you are using Eclipse. The important thing is that you must use play-services-wearable and not play-services on a wearable device, or you will get the error message that the OP asked about. In the past, if you got these mixed up, it would still accidentally work, but over time the versions have changed and this is now important and we are starting to see these kinds of questions pop up.",-1,StackOverflow
+898,write categories.add(c1),0,StackOverflow
+899,"@user1685095 My best advice is to take a long and hard look at your `Vertex` and `Edge` classes and discard absolutely everything you can. Forget about any ""nice OOP principles"", get down to the metal. Use arrays of primtive `int`s as much as you can: you can for example replace an array of objects containing three `int`s each with three arrays of `int`s. It is **way** more memory-efficient.",1,StackOverflow
+900,"Just now I came though few pages and found that we cant attach an image to a body with `mailto`, it is only limited for text and not for html.",0,StackOverflow
+901,"So, we should probably go for `php`.",0,StackOverflow
+902,Try just search\/[^\s]+,0,StackOverflow
+903,"Of course, just delete it from one sectioion and add it to the other",0,StackOverflow
+904,"Does a private member-array count as ""local,"" since it's not accessible from other locations?",0,StackOverflow
+905,"@Bob M.: This is why you need to give a good, complete example of your data **in your question**, so that you avoid a long series of comments like this.",-1,StackOverflow
+906,"If there are any more requirements to add, please put them in your question where they belong.",1,StackOverflow
+907,"At any rate, you can handle extra strings like `<br>` and `<c>` by first removing them from your string before applying your regex, like so: `strContents = regexprep(strContents,{'<c>','<br>'},'')",1,StackOverflow
+908,"@Rahul - It sounds like your URL is not correct (or the server is blocking the request) - when it is correct, make sure you support serving JSONP to the user, normal JSON without the wrapper won't work for cross-domain.",-1,StackOverflow
+909,"No. The underlying FILE data structure may <i>contain</i> a socket (or a file descriptor, or a buffer), but it is not itself a socket.",0,StackOverflow
+910,"You can't pass a FILE * to a function that expects a socket (bind for example), and you can't pass a socket to a function that expects a FILE * (fclose for example). In the usual usage of the word polymorphism, you'd have to be able to pass a FILE anywhere you'd pass a socket or visa versa depending on which way you are claiming the inheritance runs.",0,StackOverflow
+911,"I've done some experiments that lead to mixed results, please see the new lines added at the bottom of the original post. Thanks",1,StackOverflow
+912,"Cool now it works, +1 for a very good solution",1,StackOverflow
+913,@AHF: I think accepted answer solves that. Please read that answer.,1,StackOverflow
+914,the returned vector isn't the same it change depending on the give index and each index is valid only for one row of the dataframe,0,StackOverflow
+915,but one little thing where to implement code to scroll back on top after changing image? :/ @SrAxi,-1,StackOverflow
+916,"For me, I think it's easier to add TC_NODELAY than it is to mess with buffering policy.",0,StackOverflow
+917,http://www.cs.york.ac.uk/rts/books/RTSbookThirdEdition/chap5.pdf and http://www.cs.york.ac.uk/rts/books/RTSBookThirdEdition.html may help @reiner,0,StackOverflow
+918,"BTW: Even C++11x, C++14x nor any future standards, nor anyone else did yet care about that issue. So, I18N in C++ is still a thing where solutions are still expected...",1,StackOverflow
+919,"As others have mentioned, Joey Liu's solution is no longer working.",0,StackOverflow
+920,This one does!,1,StackOverflow
+921,As I said above you need to specify the X and Y co-ordinates of your image within the sprite.,1,StackOverflow
+922,"@Rob Cooper,  It says, devenv is not valid.",0,StackOverflow
+923,What I suppose to do,0,StackOverflow
+924,"""unlock your device and confirm the backup operation"" - Yeah, so I unlocked the device using fastboot oem unlock. That deleted everything on my device. Thanks for the warning.",1,StackOverflow
+925,"I think we're running in circles. The two compilations are completely separate and have no effect on one another. The fact that they are part of the same ""project"" is irrelevant.",0,StackOverflow
+926,@this.lau_ after some thought I think the separator representation is the best...,1,StackOverflow
+927,Could you please update your answer so that I can accept it with the most relevant info?,1,StackOverflow
+928,"And thanks maaartinus for the suggestion, I will implement a class to take care of it.",1,StackOverflow
+929,It's redundant in the sense that strip_tags isn't necessary if you use htmlspecialchars.,-1,StackOverflow
+930,"htmlspecialchars may indeed still be necessary if you use strip_tags, because it escapes characters that have significance in HTML (such as '<', without it being part of a tag).",0,StackOverflow
+931,"@M.M: I doubt very much that the authors of the Standard intended to change the behavior of two's-complement systems, except possibly in diagnostic builds which were intended to warn of portability issues that could arise if code were ported to non-two's-complement systems.  I don't think C++ bends over backward to accommodate non-two's-complement architectures, and thus wouldn't need to grant such an allowance.",-1,StackOverflow
+932,Did you try the update?,0,StackOverflow
+933,When i'm implementing this to your codepen it works correctly,0,StackOverflow
+934,@David: to be used with caution then :/,-1,StackOverflow
+935,I'm not suggesting that it documents anything in the caller-callee interface.  But it may help the author/editor of the function implementation itself.,0,StackOverflow
+936,@baba ill try that new version,-1,StackOverflow
+937,Let us [continue this discussion in chat](http://chat.stackoverflow.com/rooms/128219/discussion-between-unbreakable-and-stephen-muecke).,0,StackOverflow

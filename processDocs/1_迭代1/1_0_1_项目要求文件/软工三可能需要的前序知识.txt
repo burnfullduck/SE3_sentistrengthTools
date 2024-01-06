@@ -1,0 +1,26 @@
+螺旋模型 https://baike.baidu.com/item/%E8%9E%BA%E6%97%8B%E6%A8%A1%E5%9E%8B/9817820
+
+Javadoc https://blog.csdn.net/manongajie/article/details/121494903
+
+RTM https://zhuanlan.zhihu.com/p/261139553（需求追踪矩阵）
+
+代码-需求矩阵 （这玩意我不知道是说啥，可能是代码矩阵&&需求矩阵）
+
+gitlab使用  https://blog.csdn.net/justlpf/article/details/80681853
+
+CheckStyle检查  https://blog.csdn.net/rogerjava/article/details/119322285
+
+CICD https://zhuanlan.zhihu.com/p/68371743(持续集成 基于gitlab)
+
+SSH  https://zhuanlan.zhihu.com/p/21999778(一些简单的介绍)
+https://docs.gitlab.com/ee/user/project/repository/ssh_signed_commits/
+https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/
+
+Jenkins  https://zhuanlan.zhihu.com/p/157592663
+
+GITLAB runner https://zhuanlan.zhihu.com/p/441581000   (介绍和安装)
+
+maven  https://zhuanlan.zhihu.com/p/150709572
+
+Gradle   https://juejin.cn/post/6932813521344430094 （安装和介绍）
+
